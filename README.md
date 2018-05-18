@@ -8,7 +8,7 @@ The output is in the form of a list of lists, and each sublist contains the word
 
 For now I am only using the "spoken" data, I'll try including the "written" data later and the results will probably be a lot more interesting.
 
-To run the program, run the common_phrases.py file.
+To run the program, run the common_phrases.py file. Note that it may take a few seconds for the output to show up.
 
 The code is really messy right now but I'll clean it sometime.
 
