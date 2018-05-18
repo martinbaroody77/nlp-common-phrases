@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Calling" occurs="1"/>
+            <tagUsage gi="Not Talking" occurs="1"/>
+            <tagUsage gi="Giving1" occurs="1"/>
+            <tagUsage gi="Going On2" occurs="1"/>
+            <tagUsage gi="Going On1" occurs="1"/>
+            <tagUsage gi="Giving2" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r5" anchors="432 432"/>
+    <region xml:id="ev-r4" anchors="432 432"/>
+    <region xml:id="ev-r3" anchors="432 432"/>
+    <region xml:id="ev-r2" anchors="432 432"/>
+    <region xml:id="ev-r1" anchors="432 432"/>
+    <region xml:id="ev-r0" anchors="432 432"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Going On1" ref="ev-n0" as="xces">
+        <fs>
+            <f name="theme" value="what"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Not Talking" ref="ev-n1" as="xces">
+        <fs>
+            <f name="agent" value="I"/>
+            <f name="time" value="in a while"/>
+            <f name="theme" value="you"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Giving1" ref="ev-n2" as="xces">
+        <fs>
+            <f name="theme" value="scope"/>
+            <f name="recipient" value="you"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Going On2" ref="ev-n3" as="xces">
+        <fs>
+            <f name="theme1" value="whats"/>
+            <f name="theme2" value="me"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Giving2" ref="ev-n4" as="xces">
+        <fs>
+            <f name="recipient" value="me"/>
+            <f name="time" value="sometime"/>
+            <f name="theme" value="Calling"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Calling" ref="ev-n5" as="xces">
+        <fs>
+            <f name="time" value="sometime"/>
+            <f name="recipient" value="me"/>
+        </fs>
+    </a>
+</graph>

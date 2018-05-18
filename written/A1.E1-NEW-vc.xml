@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+</graph>

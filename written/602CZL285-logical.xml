@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="body" occurs="1"/>
+            <tagUsage gi="text" occurs="1"/>
+            <tagUsage gi="div" occurs="1"/>
+            <tagUsage gi="cesDoc" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="r0" anchors="11 2139"/>
+    <node xml:id="n0">
+        <link targets="r0"/>
+    </node>
+    <a label="body" ref="n0" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="n2"/>
+        </fs>
+    </a>
+    <region xml:id="r1" anchors="11 2138"/>
+    <node xml:id="n1">
+        <link targets="r1"/>
+    </node>
+    <a label="text" ref="n1" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="n1"/>
+        </fs>
+    </a>
+    <region xml:id="r2" anchors="12 2138"/>
+    <node xml:id="n2">
+        <link targets="r2"/>
+    </node>
+    <a label="cesDoc" ref="n2" as="xces"/>
+    <region xml:id="r3" anchors="18 2138"/>
+    <node xml:id="n3">
+        <link targets="r3"/>
+    </node>
+    <a label="div" ref="n3" as="xces"/>
+</graph>

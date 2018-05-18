@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesHeader xmlns="http://www.xces.org/ns/GrAF/1.0/" creator="KBS" date.created="2005-03-29"
+           version="1.0.4">
+   <fileDesc>
+      <titleStmt>
+         <title>sw2071-ms98-a-trans</title>
+      </titleStmt>
+      <extent wordCount="938"/>
+      <sourceDesc>
+         <title>Switchboard Corpus: BUYING A CAR</title>
+         <distributor type="org">Linguistic Data Consortium</distributor>
+         <pubPlace>USA</pubPlace>
+         <pubDate>1992</pubDate>
+      </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+      <editorialStmt>In the LDC Switchboard corpus, each "side" of a conversation is 
+            contained in a separate document. In the ANC version, the two sides of the conversation 
+            have been merged (based on timestamps) so that each document in the ANC Switchboard 
+            sub-corpus contains a complete conversation representing utterances by each side in turn.
+        </editorialStmt>
+   </encodingDesc>
+   <profileDesc>
+      <textClass catRef="SP TP">
+         <subject>BUYING A CAR</subject>
+         <audience>Adult</audience>
+         <medium>Spoken</medium>
+      </textClass>
+      <particDesc>
+         <person age="1957" id="spkr1013" role="caller" sex="F">Dialect : SOUTH MIDLAND, Side : A, Education : 2, Partition : DT</person>
+         <person age="1945" id="spkr1016" role="callee" sex="F">Dialect : SOUTHERN, Side : B, Education : 2, Partition : DN1</person>
+      </particDesc>
+      <settingDesc>
+         <setting who="spkr1013 spkr1016">
+            <time>910308 1517</time>
+            <activity>WHAT KIND OF CAR DO YOU THINK YOU MIGHT BUY NEXT? WHAT SORTS OF THINGS WILL ENTER INTO YOUR DECISION? SEE IF YOUR REQUIREMENTS AND THE OTHER CALLER'S REQUIREMENTS ARE SIMILAR.</activity>
+         </setting>
+      </settingDesc>
+      <primaryData loc="sw2071-ms98-a-trans.txt" medium="text"/>
+      <annotations>
+         <annotation ann.loc="sw2071-ms98-a-trans-logical.xml" type="logical">Logical structure</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-s.xml" type="s">Sentence boundaries</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-nc.xml" type="nc">Noun chunks</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-penn.xml" type="penn">Penn part of speech tags</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-ptb.xml" type="ptb">Penn Tree Bank</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-ptbtok.xml" type="ptbtok">Penn Tree Bank tokens and part of speech tags</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-seg.xml" type="seg">Base segmentation (quarks)</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-vc.xml" type="vc">Verb chunks</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-mpqa.xml" type="mpqa">Multi-Perspective Question Answering opinion corpus</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans-ne.xml" type="ne">Named Entities</annotation>
+         <annotation ann.loc="sw2071-ms98-a-trans.txt" type="content">Document content</annotation>
+      </annotations>
+   </profileDesc>
+   <revisionDesc>
+      <change>
+         <changeDate>2005-03-29   </changeDate>
+         <respName>Keith Suderman</respName>
+         <item>Updated to v1.0.4 with complete standoff markup</item>
+         <item>Added Hepple part of speech tags</item>
+         <item>Fixed sentence boundaries</item>
+         <item>Added noun and verb chunks</item>
+      </change>
+      <change>
+         <changeDate>2010-02-17</changeDate>
+         <respName>KBS</respName>
+         <item>Added nc, NE, penn, ptb, ptbtok, seg, vc annotations.</item>
+      </change>
+      <change>
+         <changeDate value="2010-04-17"/>
+         <respName>Nancy Ide</respName>
+         <item>Added fileDesc information to the header</item>
+      </change>
+      <change>
+         <changeDate>2010-09-19</changeDate>
+         <respName>KBS</respName>
+         <item>Added mpqa, ne, content annotations.</item>
+      </change>
+   </revisionDesc>
+</cesHeader>

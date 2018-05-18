@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="person" occurs="2"/>
+            <tagUsage gi="location" occurs="7"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="n0"/>
+    <a label="person" ref="n0" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <a label="person" ref="n0" as="xces">
+        <fs>
+            <f name="sex" value="null"/>
+        </fs>
+    </a>
+    <node xml:id="n1"/>
+    <a label="location" ref="n1" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n2"/>
+    <a label="location" ref="n2" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n3"/>
+    <a label="location" ref="n3" as="xces">
+        <fs>
+            <f name="type" value="province"/>
+        </fs>
+    </a>
+    <node xml:id="n4"/>
+    <a label="location" ref="n4" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n5"/>
+    <a label="location" ref="n5" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n6"/>
+    <a label="location" ref="n6" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n7"/>
+    <a label="location" ref="n7" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk10" from="n6" to="penn-n364"/>
+    <edge xml:id="lnk9" from="n5" to="penn-n351"/>
+    <edge xml:id="lnk8" from="n4" to="penn-n343"/>
+    <edge xml:id="lnk7" from="n3" to="penn-n116"/>
+    <edge xml:id="lnk6" from="n2" to="penn-n13"/>
+    <edge xml:id="lnk5" from="n1" to="penn-n11"/>
+    <edge xml:id="lnk4" from="n1" to="penn-n10"/>
+    <edge xml:id="lnk3" from="n0" to="penn-n4"/>
+    <edge xml:id="lnk2" from="n0" to="penn-n3"/>
+    <edge xml:id="lnk1" from="n0" to="penn-n4"/>
+    <edge xml:id="lnk0" from="n0" to="penn-n3"/>
+    <edge xml:id="lnk11" from="n7" to="penn-n386"/>
+</graph>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Negotiating" occurs="1"/>
+            <tagUsage gi="Distributing" occurs="1"/>
+            <tagUsage gi="Not Commanding" occurs="1"/>
+            <tagUsage gi="Handling" occurs="1"/>
+            <tagUsage gi="Discussing" occurs="1"/>
+            <tagUsage gi="Censoring" occurs="1"/>
+            <tagUsage gi="Fighting" occurs="1"/>
+            <tagUsage gi="Not Thinking" occurs="1"/>
+            <tagUsage gi="Meeting" occurs="2"/>
+            <tagUsage gi="Not Ceasing" occurs="1"/>
+            <tagUsage gi="In League With" occurs="1"/>
+            <tagUsage gi="Aiding" occurs="1"/>
+            <tagUsage gi="Being Subjected To" occurs="1"/>
+            <tagUsage gi="Being In Control" occurs="1"/>
+            <tagUsage gi="Stopping" occurs="1"/>
+            <tagUsage gi="Telling" occurs="1"/>
+            <tagUsage gi="Exploiting" occurs="1"/>
+            <tagUsage gi="Blackmailing" occurs="1"/>
+            <tagUsage gi="Relating" occurs="1"/>
+            <tagUsage gi="Expressing" occurs="1"/>
+            <tagUsage gi="Backing2" occurs="1"/>
+            <tagUsage gi="Backing1" occurs="1"/>
+            <tagUsage gi="Refusing" occurs="1"/>
+            <tagUsage gi="Using" occurs="1"/>
+            <tagUsage gi="Accepting" occurs="1"/>
+            <tagUsage gi="Reviving" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="1016 1023"/>
+    <region xml:id="ev-r1" anchors="1252 1265"/>
+    <region xml:id="ev-r2" anchors="1603 1612"/>
+    <region xml:id="ev-r3" anchors="1617 1622"/>
+    <region xml:id="ev-r4" anchors="1866 1873"/>
+    <region xml:id="ev-r5" anchors="1905 1915"/>
+    <region xml:id="ev-r6" anchors="1977 1980"/>
+    <region xml:id="ev-r7" anchors="2225 2239"/>
+    <region xml:id="ev-r8" anchors="2260 2270"/>
+    <region xml:id="ev-r9" anchors="2358 2372"/>
+    <region xml:id="ev-r10" anchors="3180 3186"/>
+    <region xml:id="ev-r11" anchors="3347 3353"/>
+    <region xml:id="ev-r12" anchors="3394 3402"/>
+    <region xml:id="ev-r13" anchors="3436 3445"/>
+    <region xml:id="ev-r14" anchors="3621 3633"/>
+    <region xml:id="ev-r15" anchors="3665 3677"/>
+    <region xml:id="ev-r16" anchors="3695 3708"/>
+    <region xml:id="ev-r17" anchors="3723 3730"/>
+    <region xml:id="ev-r18" anchors="3740 3753"/>
+    <region xml:id="ev-r19" anchors="3769 3773"/>
+    <region xml:id="ev-r20" anchors="4090 4097"/>
+    <region xml:id="ev-r21" anchors="4220 4227"/>
+    <region xml:id="ev-r22" anchors="4260 4268"/>
+    <region xml:id="ev-r23" anchors="4283 4286"/>
+    <region xml:id="ev-r24" anchors="4315 4322"/>
+    <region xml:id="ev-r25" anchors="4426 4436"/>
+    <region xml:id="ev-r26" anchors="4482 4492"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Stopping" ref="ev-n0" as="xces">
+        <fs>
+            <f name="theme" value="car"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Distributing" ref="ev-n1" as="xces">
+        <fs>
+            <f name="location" value="Medellin"/>
+            <f name="agent" value="newspaper's offices"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n10">
+        <link targets="ev-r10"/>
+    </node>
+    <a label="Backing1" ref="ev-n10" as="xces">
+        <fs>
+            <f name="agent" value="Castro"/>
+            <f name="cause" value="Taking Over2"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n11">
+        <link targets="ev-r11"/>
+    </node>
+    <a label="Backing2" ref="ev-n11" as="xces">
+        <fs>
+            <f name="theme" value="M-19"/>
+            <f name="agent" value="Castro"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n12">
+        <link targets="ev-r12"/>
+    </node>
+    <a label="Handling" ref="ev-n12" as="xces">
+        <fs>
+            <f name="agent" value="Robert Merkel"/>
+            <f name="location" value="Florida"/>
+            <f name="theme" value="Indicting"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n13">
+        <link targets="ev-r13"/>
+    </node>
+    <a label="Not Thinking" ref="ev-n13" as="xces">
+        <fs>
+            <f name="theme" value="Breaking Off With"/>
+            <f name="agent" value="Robert Merkel"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n14">
+        <link targets="ev-r14"/>
+    </node>
+    <a label="Blackmailing" ref="ev-n14" as="xces">
+        <fs>
+            <f name="agent" value="cartel"/>
+            <f name="theme" value="Colombian authorities"/>
+            <f name="aim" value="Negotiating"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n15">
+        <link targets="ev-r15"/>
+    </node>
+    <a label="Negotiating" ref="ev-n15" as="xces">
+        <fs>
+            <f name="theme" value="Colombian authorities"/>
+            <f name="agent" value="cartel"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n16">
+        <link targets="ev-r16"/>
+    </node>
+    <a label="Being In Control" ref="ev-n16" as="xces">
+        <fs>
+            <f name="agent" value="cartel"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n17">
+        <link targets="ev-r17"/>
+    </node>
+    <a label="Exploiting" ref="ev-n17" as="xces">
+        <fs>
+            <f name="theme" value="Relating"/>
+            <f name="agent" value="Fidel Castro"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n18">
+        <link targets="ev-r18"/>
+    </node>
+    <a label="Relating" ref="ev-n18" as="xces">
+        <fs>
+            <f name="theme" value="cartel"/>
+            <f name="agent" value="Castro"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n19">
+        <link targets="ev-r19"/>
+    </node>
+    <a label="Telling" ref="ev-n19" as="xces">
+        <fs>
+            <f name="agent" value="Merkel"/>
+            <f name="theme" value="Blackmailing &amp; Negotiating &amp; Being In Control &amp; Exploiting"/>
+            <f name="time" value="recently"/>
+            <f name="recipient" value="David Asman"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Not Ceasing" ref="ev-n2" as="xces">
+        <fs>
+            <f name="theme" value="fight"/>
+            <f name="agent" value="El Espectador"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n20">
+        <link targets="ev-r20"/>
+    </node>
+    <a label="Reviving" ref="ev-n20" as="xces">
+        <fs>
+            <f name="theme" value="extradition treaty"/>
+            <f name="agent" value="President Virgilia Barco"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n21">
+        <link targets="ev-r21"/>
+    </node>
+    <a label="Refusing" ref="ev-n21" as="xces">
+        <fs>
+            <f name="theme" value="U.S. troops or advisers"/>
+            <f name="agent" value="Mr. Barco"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n22">
+        <link targets="ev-r22"/>
+    </node>
+    <a label="Accepting" ref="ev-n22" as="xces">
+        <fs>
+            <f name="beneficiary" value="Mr. Barco"/>
+            <f name="theme" value="U.S. military aid"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n23">
+        <link targets="ev-r23"/>
+    </node>
+    <a label="Aiding" ref="ev-n23" as="xces">
+        <fs>
+            <f name="agent" value="U.S. military"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n24">
+        <link targets="ev-r24"/>
+    </node>
+    <a label="Meeting" ref="ev-n24" as="xces">
+        <fs>
+            <f name="agent" value="President Bush"/>
+            <f name="cause" value="Discussing"/>
+            <f name="theme" value="Mr. Barco, President Alan Garcia, President Jaime Paz Zamora"/>
+            <f name="time" value="within 90 days"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n25">
+        <link targets="ev-r25"/>
+    </node>
+    <a label="Discussing" ref="ev-n25" as="xces">
+        <fs>
+            <f name="theme" value="Drug Problem"/>
+            <f name="agent" value="Bush, Garcia, Paz Zamora"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n26">
+        <link targets="ev-r26"/>
+    </node>
+    <a label="Meeting" ref="ev-n26" as="xces"/>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Fighting" ref="ev-n3" as="xces">
+        <fs>
+            <f name="theme" value="drug trafficking"/>
+            <f name="agent" value="El Espectador"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Not Commanding" ref="ev-n4" as="xces">
+        <fs>
+            <f name="theme" value="batallions"/>
+            <f name="agent" value="publishers"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Expressing" ref="ev-n5" as="xces">
+        <fs>
+            <f name="agent" value="publishers"/>
+            <f name="theme" value="outrage"/>
+            <f name="location" value="newspaper"/>
+            <f name="time" value="today"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n6">
+        <link targets="ev-r6"/>
+    </node>
+    <a label="Using" ref="ev-n6" as="xces">
+        <fs>
+            <f name="theme" value="common editorial"/>
+            <f name="agent" value="publishers"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n7">
+        <link targets="ev-r7"/>
+    </node>
+    <a label="Being Subjected To" ref="ev-n7" as="xces">
+        <fs>
+            <f name="theme1" value="journalists &amp; their families"/>
+            <f name="theme2" value="Censoring"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n8">
+        <link targets="ev-r8"/>
+    </node>
+    <a label="Censoring" ref="ev-n8" as="xces"/>
+    <node xml:id="ev-n9">
+        <link targets="ev-r9"/>
+    </node>
+    <a label="In League With" ref="ev-n9" as="xces">
+        <fs>
+            <f name="theme" value="drug traffickers"/>
+            <f name="agent" value="Manuel Noriega"/>
+        </fs>
+    </a>
+</graph>

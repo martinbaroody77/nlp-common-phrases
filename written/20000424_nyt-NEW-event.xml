@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Saying" occurs="1"/>
+            <tagUsage gi="Urging" occurs="1"/>
+            <tagUsage gi="Hurting" occurs="1"/>
+            <tagUsage gi="Flowing" occurs="1"/>
+            <tagUsage gi="Allowing" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="62 67"/>
+    <region xml:id="ev-r1" anchors="87 95"/>
+    <region xml:id="ev-r2" anchors="104 108"/>
+    <region xml:id="ev-r3" anchors="198 202"/>
+    <region xml:id="ev-r4" anchors="232 236"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Urging" ref="ev-n0" as="xces">
+        <fs>
+            <f name="theme" value="United Nations"/>
+            <f name="agent" value="Tony Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Allowing" ref="ev-n1" as="xces">
+        <fs>
+            <f name="theme" value="Flowing"/>
+            <f name="agent" value="United Nations"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Flowing" ref="ev-n2" as="xces">
+        <fs>
+            <f name="theme" value="food &amp; medicine"/>
+            <f name="goal" value="Iraq"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Saying" ref="ev-n3" as="xces">
+        <fs>
+            <f name="theme" value="Hurting"/>
+            <f name="agent" value="Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Hurting" ref="ev-n4" as="xces">
+        <fs>
+            <f name="cause" value="UN economic sanctions"/>
+            <f name="location" value="there (Iraq)"/>
+            <f name="theme" value="millions of civilians"/>
+        </fs>
+    </a>
+</graph>

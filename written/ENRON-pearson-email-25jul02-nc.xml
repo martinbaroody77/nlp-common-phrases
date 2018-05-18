@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="nchunk" occurs="26"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="nc-n0"/>
+    <a label="nchunk" ref="nc-n0" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n0"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n1"/>
+    <a label="nchunk" ref="nc-n1" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n1"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n10"/>
+    <a label="nchunk" ref="nc-n10" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n10"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n11"/>
+    <a label="nchunk" ref="nc-n11" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n11"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n12"/>
+    <a label="nchunk" ref="nc-n12" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n12"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n13"/>
+    <a label="nchunk" ref="nc-n13" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n13"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n14"/>
+    <a label="nchunk" ref="nc-n14" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n14"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n15"/>
+    <a label="nchunk" ref="nc-n15" as="xces"/>
+    <node xml:id="nc-n16"/>
+    <a label="nchunk" ref="nc-n16" as="xces"/>
+    <node xml:id="nc-n17"/>
+    <a label="nchunk" ref="nc-n17" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n16"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n18"/>
+    <a label="nchunk" ref="nc-n18" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n17"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n19"/>
+    <a label="nchunk" ref="nc-n19" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n18"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n2"/>
+    <a label="nchunk" ref="nc-n2" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n2"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n20"/>
+    <a label="nchunk" ref="nc-n20" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n19"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n21"/>
+    <a label="nchunk" ref="nc-n21" as="xces"/>
+    <node xml:id="nc-n22"/>
+    <a label="nchunk" ref="nc-n22" as="xces"/>
+    <node xml:id="nc-n23"/>
+    <a label="nchunk" ref="nc-n23" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n20"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n24"/>
+    <a label="nchunk" ref="nc-n24" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n21"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n25"/>
+    <a label="nchunk" ref="nc-n25" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n22"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n3"/>
+    <a label="nchunk" ref="nc-n3" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n3"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n4"/>
+    <a label="nchunk" ref="nc-n4" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n4"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n5"/>
+    <a label="nchunk" ref="nc-n5" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n5"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n6"/>
+    <a label="nchunk" ref="nc-n6" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n6"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n7"/>
+    <a label="nchunk" ref="nc-n7" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n7"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n8"/>
+    <a label="nchunk" ref="nc-n8" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n8"/>
+        </fs>
+    </a>
+    <node xml:id="nc-n9"/>
+    <a label="nchunk" ref="nc-n9" as="xces">
+        <fs>
+            <f name="graf:set" value="xces"/>
+            <f name="graf:id" value="nc-n9"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk35" from="nc-n24" to="penn-n91"/>
+    <edge xml:id="lnk34" from="nc-n24" to="penn-n90"/>
+    <edge xml:id="lnk33" from="nc-n24" to="penn-n89"/>
+    <edge xml:id="lnk32" from="nc-n23" to="penn-n87"/>
+    <edge xml:id="lnk31" from="nc-n22" to="penn-n85"/>
+    <edge xml:id="lnk30" from="nc-n22" to="penn-n84"/>
+    <edge xml:id="lnk9" from="nc-n7" to="penn-n24"/>
+    <edge xml:id="lnk8" from="nc-n6" to="penn-n22"/>
+    <edge xml:id="lnk7" from="nc-n6" to="penn-n21"/>
+    <edge xml:id="lnk6" from="nc-n5" to="penn-n20"/>
+    <edge xml:id="lnk5" from="nc-n4" to="penn-n17"/>
+    <edge xml:id="lnk4" from="nc-n4" to="penn-n16"/>
+    <edge xml:id="lnk3" from="nc-n3" to="penn-n14"/>
+    <edge xml:id="lnk2" from="nc-n2" to="penn-n9"/>
+    <edge xml:id="lnk1" from="nc-n1" to="penn-n7"/>
+    <edge xml:id="lnk0" from="nc-n0" to="penn-n2"/>
+    <edge xml:id="lnk29" from="nc-n21" to="penn-n83"/>
+    <edge xml:id="lnk28" from="nc-n20" to="penn-n80"/>
+    <edge xml:id="lnk27" from="nc-n20" to="penn-n79"/>
+    <edge xml:id="lnk26" from="nc-n20" to="penn-n78"/>
+    <edge xml:id="lnk25" from="nc-n20" to="penn-n77"/>
+    <edge xml:id="lnk24" from="nc-n19" to="penn-n72"/>
+    <edge xml:id="lnk23" from="nc-n18" to="penn-n65"/>
+    <edge xml:id="lnk22" from="nc-n17" to="penn-n61"/>
+    <edge xml:id="lnk21" from="nc-n16" to="penn-n55"/>
+    <edge xml:id="lnk20" from="nc-n16" to="penn-n54"/>
+    <edge xml:id="lnk19" from="nc-n16" to="penn-n53"/>
+    <edge xml:id="lnk18" from="nc-n15" to="penn-n52"/>
+    <edge xml:id="lnk17" from="nc-n14" to="penn-n49"/>
+    <edge xml:id="lnk16" from="nc-n13" to="penn-n47"/>
+    <edge xml:id="lnk15" from="nc-n12" to="penn-n39"/>
+    <edge xml:id="lnk14" from="nc-n12" to="penn-n38"/>
+    <edge xml:id="lnk13" from="nc-n11" to="penn-n36"/>
+    <edge xml:id="lnk12" from="nc-n10" to="penn-n33"/>
+    <edge xml:id="lnk11" from="nc-n9" to="penn-n31"/>
+    <edge xml:id="lnk10" from="nc-n8" to="penn-n29"/>
+    <edge xml:id="lnk37" from="nc-n25" to="penn-n94"/>
+    <edge xml:id="lnk36" from="nc-n24" to="penn-n92"/>
+</graph>

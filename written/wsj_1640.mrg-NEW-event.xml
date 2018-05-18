@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Positioning" occurs="1"/>
+            <tagUsage gi="Spying2" occurs="1"/>
+            <tagUsage gi="Setting Up" occurs="1"/>
+            <tagUsage gi="Stealing3" occurs="1"/>
+            <tagUsage gi="Getting" occurs="1"/>
+            <tagUsage gi="Stealing4" occurs="1"/>
+            <tagUsage gi="Erasing" occurs="1"/>
+            <tagUsage gi="Eroding" occurs="1"/>
+            <tagUsage gi="Pirating" occurs="1"/>
+            <tagUsage gi="Retrieving" occurs="1"/>
+            <tagUsage gi="Costing" occurs="2"/>
+            <tagUsage gi="Spying" occurs="2"/>
+            <tagUsage gi="Spending2" occurs="1"/>
+            <tagUsage gi="Waiting" occurs="1"/>
+            <tagUsage gi="Spending1" occurs="1"/>
+            <tagUsage gi="Catching" occurs="1"/>
+            <tagUsage gi="Stealing" occurs="3"/>
+            <tagUsage gi="Making" occurs="1"/>
+            <tagUsage gi="Threatening" occurs="2"/>
+            <tagUsage gi="Not Taking precautions" occurs="1"/>
+            <tagUsage gi="Stealing2" occurs="1"/>
+            <tagUsage gi="Transmitting" occurs="1"/>
+            <tagUsage gi="Paying Off" occurs="1"/>
+            <tagUsage gi="Doubling" occurs="1"/>
+            <tagUsage gi="Encrypting" occurs="1"/>
+            <tagUsage gi="Sharing" occurs="1"/>
+            <tagUsage gi="Not Catching" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="9 25"/>
+    <region xml:id="ev-r1" anchors="91 98"/>
+    <region xml:id="ev-r2" anchors="127 134"/>
+    <region xml:id="ev-r3" anchors="292 322"/>
+    <region xml:id="ev-r4" anchors="373 378"/>
+    <region xml:id="ev-r5" anchors="415 420"/>
+    <region xml:id="ev-r6" anchors="632 637"/>
+    <region xml:id="ev-r7" anchors="676 692"/>
+    <region xml:id="ev-r8" anchors="726 732"/>
+    <region xml:id="ev-r9" anchors="1114 1121"/>
+    <region xml:id="ev-r10" anchors="1150 1161"/>
+    <region xml:id="ev-r11" anchors="1352 1360"/>
+    <region xml:id="ev-r12" anchors="1412 1416"/>
+    <region xml:id="ev-r13" anchors="1452 1460"/>
+    <region xml:id="ev-r14" anchors="1560 1574"/>
+    <region xml:id="ev-r15" anchors="1590 1598"/>
+    <region xml:id="ev-r16" anchors="1639 1649"/>
+    <region xml:id="ev-r17" anchors="1693 1713"/>
+    <region xml:id="ev-r18" anchors="1718 1722"/>
+    <region xml:id="ev-r19" anchors="1774 1800"/>
+    <region xml:id="ev-r20" anchors="1857 1862"/>
+    <region xml:id="ev-r21" anchors="1931 1939"/>
+    <region xml:id="ev-r22" anchors="2082 2092"/>
+    <region xml:id="ev-r23" anchors="2432 2440"/>
+    <region xml:id="ev-r24" anchors="2508 2516"/>
+    <region xml:id="ev-r25" anchors="2663 2669"/>
+    <region xml:id="ev-r26" anchors="2722 2731"/>
+    <region xml:id="ev-r27" anchors="2956 2961"/>
+    <region xml:id="ev-r28" anchors="3171 3179"/>
+    <region xml:id="ev-r29" anchors="3520 3533"/>
+    <region xml:id="ev-r30" anchors="3534 3546"/>
+    <region xml:id="ev-r31" anchors="3570 3573"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Stealing" ref="ev-n0" as="xces">
+        <fs>
+            <f name="agent" value="foreign &amp; industrial spies &amp; disgruntled employees"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Costing" ref="ev-n1" as="xces">
+        <fs>
+            <f name="theme2" value="billions"/>
+            <f name="cause" value="Stealing"/>
+            <f name="theme1" value="U.S. companies"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n10">
+        <link targets="ev-r10"/>
+    </node>
+    <a label="Transmitting" ref="ev-n10" as="xces">
+        <fs>
+            <f name="theme" value="secret"/>
+            <f name="location" value="air"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n11">
+        <link targets="ev-r11"/>
+    </node>
+    <a label="Positioning" ref="ev-n11" as="xces">
+        <fs>
+            <f name="agent" value="they (rank amateurs)"/>
+            <f name="location" value="near company's satellite dish"/>
+            <f name="theme" value="themselves"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n12">
+        <link targets="ev-r12"/>
+    </node>
+    <a label="Waiting" ref="ev-n12" as="xces">
+        <fs>
+            <f name="location" value="near company's satellite dish"/>
+            <f name="agent" value="rank amateurs"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n13">
+        <link targets="ev-r13"/>
+    </node>
+    <a label="Stealing2" ref="ev-n13" as="xces">
+        <fs>
+            <f name="agent" value="dozen competitors"/>
+            <f name="time" value="at same time"/>
+            <f name="theme" value="secrets"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n14">
+        <link targets="ev-r14"/>
+    </node>
+    <a label="Not Catching" ref="ev-n14" as="xces">
+        <fs>
+            <f name="theme" value="dozen competitors"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n15">
+        <link targets="ev-r15"/>
+    </node>
+    <a label="Catching" ref="ev-n15" as="xces">
+        <fs>
+            <f name="theme" value="electronic thief"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n16">
+        <link targets="ev-r16"/>
+    </node>
+    <a label="Setting Up" ref="ev-n16" as="xces">
+        <fs>
+            <f name="theme" value="him"/>
+            <f name="instrument" value="erroneous information"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n17">
+        <link targets="ev-r17"/>
+    </node>
+    <a label="Spying" ref="ev-n17" as="xces"/>
+    <node xml:id="ev-n18">
+        <link targets="ev-r18"/>
+    </node>
+    <a label="Costing" ref="ev-n18" as="xces">
+        <fs>
+            <f name="cause" value="Spying"/>
+            <f name="theme2" value="billions of dollars"/>
+            <f name="theme1" value="US firms"/>
+            <f name="time" value="a year"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n19">
+        <link targets="ev-r19"/>
+    </node>
+    <a label="Not Taking precautions" ref="ev-n19" as="xces">
+        <fs>
+            <f name="agent" value="U.S. firms"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Eroding" ref="ev-n2" as="xces">
+        <fs>
+            <f name="theme" value="international competitive advantage"/>
+            <f name="cause" value="Stealing"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n20">
+        <link targets="ev-r20"/>
+    </node>
+    <a label="Spending1" ref="ev-n20" as="xces">
+        <fs>
+            <f name="agent" value="European firms"/>
+            <f name="theme2" value="electronic security"/>
+            <f name="theme1" value="$150 million"/>
+            <f name="time" value="this year"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n21">
+        <link targets="ev-r21"/>
+    </node>
+    <a label="Spending2" ref="ev-n21" as="xces">
+        <fs>
+            <f name="agent" value="European firms"/>
+            <f name="time" value="by 1992"/>
+            <f name="theme" value="$1 billion"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n22">
+        <link targets="ev-r22"/>
+    </node>
+    <a label="Encrypting" ref="ev-n22" as="xces">
+        <fs>
+            <f name="theme" value="corporate communications"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n23">
+        <link targets="ev-r23"/>
+    </node>
+    <a label="Doubling" ref="ev-n23" as="xces">
+        <fs>
+            <f name="theme" value="foreign spies"/>
+            <f name="agent" value="computer-maintenance workers"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n24">
+        <link targets="ev-r24"/>
+    </node>
+    <a label="Stealing3" ref="ev-n24" as="xces">
+        <fs>
+            <f name="theme" value="corporate secrets"/>
+            <f name="instrument" value="technology"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n25">
+        <link targets="ev-r25"/>
+    </node>
+    <a label="Erasing" ref="ev-n25" as="xces">
+        <fs>
+            <f name="theme" value="computer"/>
+            <f name="agent" value="Oliver North"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n26">
+        <link targets="ev-r26"/>
+    </node>
+    <a label="Retrieving" ref="ev-n26" as="xces">
+        <fs>
+            <f name="time" value="later"/>
+            <f name="aim" value="Reading"/>
+            <f name="theme" value="information"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n27">
+        <link targets="ev-r27"/>
+    </node>
+    <a label="Making" ref="ev-n27" as="xces">
+        <fs>
+            <f name="theme" value="computer-security products"/>
+            <f name="agent" value="Micronyx Inc."/>
+        </fs>
+    </a>
+    <node xml:id="ev-n28">
+        <link targets="ev-r28"/>
+    </node>
+    <a label="Stealing4" ref="ev-n28" as="xces">
+        <fs>
+            <f name="theme" value="Western corporate communications"/>
+            <f name="agent" value="Soviets"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n29">
+        <link targets="ev-r29"/>
+    </node>
+    <a label="Spying2" ref="ev-n29" as="xces">
+        <fs>
+            <f name="agent" value="Soviets"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Spying" ref="ev-n3" as="xces"/>
+    <node xml:id="ev-n30">
+        <link targets="ev-r30"/>
+    </node>
+    <a label="Paying Off" ref="ev-n30" as="xces">
+        <fs>
+            <f name="instrument" value="Spying2"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n31">
+        <link targets="ev-r31"/>
+    </node>
+    <a label="Getting" ref="ev-n31" as="xces">
+        <fs>
+            <f name="agent" value="Soviets"/>
+            <f name="cause" value="Spying2"/>
+            <f name="theme" value="contract"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Stealing" ref="ev-n4" as="xces">
+        <fs>
+            <f name="agent" value="hostile &amp; even friendly nations"/>
+            <f name="source" value="U.S. companies"/>
+            <f name="theme" value="information"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Sharing" ref="ev-n5" as="xces">
+        <fs>
+            <f name="agent" value="hostile &amp; even friendly nations"/>
+            <f name="theme" value="information"/>
+            <f name="beneficiary" value="their own companies"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n6">
+        <link targets="ev-r6"/>
+    </node>
+    <a label="Stealing" ref="ev-n6" as="xces">
+        <fs>
+            <f name="theme" value="business data"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n7">
+        <link targets="ev-r7"/>
+    </node>
+    <a label="Threatening" ref="ev-n7" as="xces">
+        <fs>
+            <f name="theme" value="national security"/>
+            <f name="cause" value="Stealing"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n8">
+        <link targets="ev-r8"/>
+    </node>
+    <a label="Threatening" ref="ev-n8" as="xces">
+        <fs>
+            <f name="theme" value="survival of victimized U.S. firms"/>
+            <f name="cause" value="Stealing"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n9">
+        <link targets="ev-r9"/>
+    </node>
+    <a label="Pirating" ref="ev-n9" as="xces">
+        <fs>
+            <f name="theme" value="secret"/>
+        </fs>
+    </a>
+</graph>

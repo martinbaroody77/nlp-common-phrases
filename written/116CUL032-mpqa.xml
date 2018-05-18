@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="objective-speech-event" occurs="12"/>
+            <tagUsage gi="attitude" occurs="9"/>
+            <tagUsage gi="inside" occurs="20"/>
+            <tagUsage gi="target" occurs="9"/>
+            <tagUsage gi="split" occurs="18"/>
+            <tagUsage gi="direct-subjective" occurs="9"/>
+            <tagUsage gi="expressive-subjectivity" occurs="10"/>
+            <tagUsage gi="agent" occurs="12"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="mpqa" type="http://www.cs.pitt.edu/mpqa/"/>
+        </annotationSets>
+    </header>
+    <region xml:id="r10" anchors="18 94"/>
+    <region xml:id="r12" anchors="18 18"/>
+    <region xml:id="r8" anchors="18 18"/>
+    <region xml:id="r6" anchors="18 18"/>
+    <region xml:id="r1" anchors="18 18"/>
+    <region xml:id="r14" anchors="75 79"/>
+    <region xml:id="r16" anchors="83 94"/>
+    <region xml:id="r18" anchors="95 125"/>
+    <region xml:id="r20" anchors="107 124"/>
+    <region xml:id="r22" anchors="114 124"/>
+    <region xml:id="r24" anchors="124 125"/>
+    <region xml:id="r26" anchors="126 152"/>
+    <region xml:id="r28" anchors="126 126"/>
+    <region xml:id="r30" anchors="135 152"/>
+    <region xml:id="r32" anchors="153 310"/>
+    <region xml:id="r34" anchors="157 168"/>
+    <region xml:id="r36" anchors="175 177"/>
+    <region xml:id="r38" anchors="178 185"/>
+    <region xml:id="r40" anchors="187 309"/>
+    <region xml:id="r42" anchors="187 196"/>
+    <region xml:id="r44" anchors="309 310"/>
+    <region xml:id="r46" anchors="317 537"/>
+    <region xml:id="r48" anchors="317 329"/>
+    <region xml:id="r50" anchors="317 317"/>
+    <region xml:id="r52" anchors="375 385"/>
+    <region xml:id="r54" anchors="398 403"/>
+    <region xml:id="r56" anchors="433 536"/>
+    <region xml:id="r59" anchors="536 537"/>
+    <region xml:id="r61" anchors="538 769"/>
+    <region xml:id="r63" anchors="538 538"/>
+    <region xml:id="r65" anchors="564 599"/>
+    <region xml:id="r67" anchors="666 707"/>
+    <region xml:id="r69" anchors="709 768"/>
+    <region xml:id="r71" anchors="768 769"/>
+    <region xml:id="r73" anchors="776 1088"/>
+    <region xml:id="r75" anchors="776 818"/>
+    <region xml:id="r77" anchors="776 776"/>
+    <region xml:id="r79" anchors="869 899"/>
+    <region xml:id="r82" anchors="901 941"/>
+    <region xml:id="r84" anchors="931 941"/>
+    <region xml:id="r86" anchors="1087 1088"/>
+    <region xml:id="r88" anchors="1095 1139"/>
+    <region xml:id="r90" anchors="1095 1095"/>
+    <region xml:id="r92" anchors="1128 1139"/>
+    <region xml:id="r94" anchors="1140 1211"/>
+    <region xml:id="r96" anchors="1151 1158"/>
+    <region xml:id="r98" anchors="1170 1186"/>
+    <region xml:id="r100" anchors="1170 1178"/>
+    <region xml:id="r102" anchors="1179 1186"/>
+    <region xml:id="r104" anchors="1210 1211"/>
+    <region xml:id="r106" anchors="1212 1431"/>
+    <region xml:id="r108" anchors="1212 1212"/>
+    <region xml:id="r110" anchors="1430 1431"/>
+    <region xml:id="r112" anchors="1432 1598"/>
+    <region xml:id="r114" anchors="1432 1432"/>
+    <region xml:id="r116" anchors="1437 1443"/>
+    <region xml:id="r118" anchors="1469 1480"/>
+    <region xml:id="r121" anchors="1481 1487"/>
+    <region xml:id="r123" anchors="1597 1598"/>
+    <region xml:id="r125" anchors="1599 1751"/>
+    <region xml:id="r127" anchors="1599 1599"/>
+    <region xml:id="r129" anchors="1703 1729"/>
+    <region xml:id="r132" anchors="1703 1711"/>
+    <region xml:id="r134" anchors="1750 1751"/>
+    <region xml:id="r136" anchors="1752 1891"/>
+    <region xml:id="r138" anchors="1752 1752"/>
+    <region xml:id="r140" anchors="1890 1891"/>
+    <region xml:id="r142" anchors="1892 1915"/>
+    <region xml:id="r144" anchors="1892 1892"/>
+    <region xml:id="r146" anchors="1914 1915"/>
+    <region xml:id="r148" anchors="1922 1980"/>
+    <region xml:id="r150" anchors="1922 1922"/>
+    <region xml:id="r152" anchors="1925 1953"/>
+    <region xml:id="r154" anchors="1940 1948"/>
+    <region xml:id="r156" anchors="1949 1953"/>
+    <region xml:id="r158" anchors="1969 1980"/>
+    <region xml:id="r160" anchors="1981 2054"/>
+    <region xml:id="r162" anchors="2053 2054"/>
+    <region xml:id="r164" anchors="2055 2202"/>
+    <region xml:id="r166" anchors="2055 2055"/>
+    <region xml:id="r168" anchors="2201 2202"/>
+    <region xml:id="r170" anchors="2203 2321"/>
+    <region xml:id="r172" anchors="2203 2203"/>
+    <region xml:id="r174" anchors="2320 2321"/>
+    <region xml:id="r176" anchors="2322 2425"/>
+    <region xml:id="r178" anchors="2322 2322"/>
+    <region xml:id="r180" anchors="2424 2425"/>
+    <region xml:id="r182" anchors="2432 2487"/>
+    <region xml:id="r184" anchors="2432 2441"/>
+    <region xml:id="r186" anchors="2432 2432"/>
+    <region xml:id="r188" anchors="2449 2464"/>
+    <region xml:id="r190" anchors="2487 2487"/>
+    <node xml:id="n0">
+        <link targets="r1"/>
+    </node>
+    <a label="direct-subjective" ref="n0" as="mpqa"/>
+    <a label="expressive-subjectivity" ref="n0" as="mpqa"/>
+    <a label="agent" ref="n0" as="mpqa">
+        <fs>
+            <f name="id" value="implicit"/>
+        </fs>
+    </a>
+    <a label="agent" ref="n0" as="mpqa">
+        <fs>
+            <f name="id" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n1">
+        <link targets="r6"/>
+    </node>
+    <a label="split" ref="n1" as="mpqa"/>
+    <node xml:id="n10">
+        <link targets="r24"/>
+    </node>
+    <a label="split" ref="n10" as="mpqa"/>
+    <node xml:id="n11">
+        <link targets="r26"/>
+    </node>
+    <a label="inside" ref="n11" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n12">
+        <link targets="r28"/>
+    </node>
+    <a label="objective-speech-event" ref="n12" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n13">
+        <link targets="r30"/>
+    </node>
+    <a label="agent" ref="n13" as="mpqa">
+        <fs>
+            <f name="id" value="mccoy"/>
+        </fs>
+    </a>
+    <node xml:id="n14">
+        <link targets="r32"/>
+    </node>
+    <a label="inside" ref="n14" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n15">
+        <link targets="r34"/>
+    </node>
+    <a label="target" ref="n15" as="mpqa">
+        <fs>
+            <f name="id" value="twoEfforts"/>
+        </fs>
+    </a>
+    <node xml:id="n16">
+        <link targets="r36"/>
+    </node>
+    <a label="agent" ref="n16" as="mpqa">
+        <fs>
+            <f name="id" value="mccoy"/>
+            <f name="nested-source" value=""/>
+        </fs>
+    </a>
+    <node xml:id="n17">
+        <link targets="r38"/>
+    </node>
+    <a label="direct-subjective" ref="n17" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, mccoy"/>
+            <f name="polarity" value="positive"/>
+            <f name="attitude-link" value="developWell"/>
+            <f name="intensity" value="medium"/>
+            <f name="expression-intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n18">
+        <link targets="r40"/>
+    </node>
+    <a label="attitude" ref="n18" as="mpqa">
+        <fs>
+            <f name="id" value="developWell"/>
+            <f name="intensity" value="medium-high"/>
+            <f name="target-link" value="twoEfforts"/>
+            <f name="attitude-type" value="sentiment-pos"/>
+        </fs>
+    </a>
+    <node xml:id="n19">
+        <link targets="r42"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n19" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, mccoy"/>
+            <f name="polarity" value="positive"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n2">
+        <link targets="r8"/>
+    </node>
+    <a label="split" ref="n2" as="mpqa"/>
+    <node xml:id="n20">
+        <link targets="r44"/>
+    </node>
+    <a label="split" ref="n20" as="mpqa"/>
+    <node xml:id="n21">
+        <link targets="r46"/>
+    </node>
+    <a label="inside" ref="n21" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n22">
+        <link targets="r48"/>
+    </node>
+    <a label="agent" ref="n22" as="mpqa">
+        <fs>
+            <f name="id" value="init"/>
+            <f name="nested-source" value="w, init"/>
+        </fs>
+    </a>
+    <node xml:id="n23">
+        <link targets="r50"/>
+    </node>
+    <a label="objective-speech-event" ref="n23" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n24">
+        <link targets="r52"/>
+    </node>
+    <a label="direct-subjective" ref="n24" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, init"/>
+            <f name="polarity" value="neutral"/>
+            <f name="attitude-link" value="goals"/>
+            <f name="intensity" value="medium"/>
+            <f name="expression-intensity" value="neutral"/>
+        </fs>
+    </a>
+    <node xml:id="n25">
+        <link targets="r54"/>
+    </node>
+    <a label="attitude" ref="n25" as="mpqa">
+        <fs>
+            <f name="id" value="goals"/>
+            <f name="intensity" value="medium"/>
+            <f name="target-link" value="theGoals"/>
+            <f name="attitude-type" value="sentiment-pos"/>
+        </fs>
+    </a>
+    <node xml:id="n26">
+        <link targets="r56"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n26" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, init"/>
+            <f name="polarity" value="positive"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <a label="target" ref="n26" as="mpqa">
+        <fs>
+            <f name="id" value="theGoals"/>
+        </fs>
+    </a>
+    <node xml:id="n27">
+        <link targets="r59"/>
+    </node>
+    <a label="split" ref="n27" as="mpqa"/>
+    <node xml:id="n28">
+        <link targets="r61"/>
+    </node>
+    <a label="inside" ref="n28" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n29">
+        <link targets="r63"/>
+    </node>
+    <a label="objective-speech-event" ref="n29" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n3">
+        <link targets="r10"/>
+    </node>
+    <a label="inside" ref="n3" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n30">
+        <link targets="r65"/>
+    </node>
+    <a label="agent" ref="n30" as="mpqa">
+        <fs>
+            <f name="id" value="participants"/>
+        </fs>
+    </a>
+    <node xml:id="n31">
+        <link targets="r67"/>
+    </node>
+    <a label="attitude" ref="n31" as="mpqa">
+        <fs>
+            <f name="inferred" value="yes"/>
+            <f name="attitude-type" value="other-attitude"/>
+            <f name="intensity" value="medium"/>
+            <f name="id" value="growUp"/>
+            <f name="target-link" value="toDo"/>
+        </fs>
+    </a>
+    <node xml:id="n32">
+        <link targets="r69"/>
+    </node>
+    <a label="target" ref="n32" as="mpqa">
+        <fs>
+            <f name="id" value="toDo"/>
+        </fs>
+    </a>
+    <node xml:id="n33">
+        <link targets="r71"/>
+    </node>
+    <a label="split" ref="n33" as="mpqa"/>
+    <node xml:id="n34">
+        <link targets="r73"/>
+    </node>
+    <a label="inside" ref="n34" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n35">
+        <link targets="r75"/>
+    </node>
+    <a label="agent" ref="n35" as="mpqa">
+        <fs>
+            <f name="id" value="adultsYouth"/>
+            <f name="nested-source" value="w, adultsYouth"/>
+        </fs>
+    </a>
+    <node xml:id="n36">
+        <link targets="r77"/>
+    </node>
+    <a label="objective-speech-event" ref="n36" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n37">
+        <link targets="r79"/>
+    </node>
+    <a label="attitude" ref="n37" as="mpqa">
+        <fs>
+            <f name="id" value="sameConclusion"/>
+            <f name="intensity" value="medium"/>
+            <f name="target-link" value="stillHasMuch"/>
+            <f name="attitude-type" value="other-attitude"/>
+        </fs>
+    </a>
+    <a label="direct-subjective" ref="n37" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, adultsYouth"/>
+            <f name="polarity" value="neutral"/>
+            <f name="attitude-link" value="sameConclusion"/>
+            <f name="expression-intensity" value="neutral"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n38">
+        <link targets="r82"/>
+    </node>
+    <a label="target" ref="n38" as="mpqa">
+        <fs>
+            <f name="id" value="stillHasMuch"/>
+        </fs>
+    </a>
+    <node xml:id="n39">
+        <link targets="r84"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n39" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, adultsYouth"/>
+            <f name="polarity" value="neutral"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n4">
+        <link targets="r12"/>
+    </node>
+    <a label="objective-speech-event" ref="n4" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n40">
+        <link targets="r86"/>
+    </node>
+    <a label="split" ref="n40" as="mpqa"/>
+    <node xml:id="n41">
+        <link targets="r88"/>
+    </node>
+    <a label="inside" ref="n41" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n42">
+        <link targets="r90"/>
+    </node>
+    <a label="objective-speech-event" ref="n42" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n43">
+        <link targets="r92"/>
+    </node>
+    <a label="agent" ref="n43" as="mpqa">
+        <fs>
+            <f name="id" value="mccoy"/>
+        </fs>
+    </a>
+    <node xml:id="n44">
+        <link targets="r94"/>
+    </node>
+    <a label="inside" ref="n44" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n45">
+        <link targets="r96"/>
+    </node>
+    <a label="direct-subjective" ref="n45" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, mccoy"/>
+            <f name="polarity" value="neutral"/>
+            <f name="attitude-link" value="valuableEfforts"/>
+            <f name="expression-intensity" value="neutral"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n46">
+        <link targets="r98"/>
+    </node>
+    <a label="attitude" ref="n46" as="mpqa">
+        <fs>
+            <f name="id" value="valuableEfforts"/>
+            <f name="intensity" value="medium"/>
+            <f name="target-link" value="valEfforts"/>
+            <f name="attitude-type" value="sentiment-pos"/>
+        </fs>
+    </a>
+    <node xml:id="n47">
+        <link targets="r100"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n47" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, mccoy"/>
+            <f name="polarity" value="positive"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n48">
+        <link targets="r102"/>
+    </node>
+    <a label="target" ref="n48" as="mpqa">
+        <fs>
+            <f name="id" value="valEfforts"/>
+        </fs>
+    </a>
+    <node xml:id="n49">
+        <link targets="r104"/>
+    </node>
+    <a label="split" ref="n49" as="mpqa"/>
+    <node xml:id="n5">
+        <link targets="r14"/>
+    </node>
+    <a label="attitude" ref="n5" as="mpqa">
+        <fs>
+            <f name="id" value="goal"/>
+            <f name="intensity" value="medium"/>
+            <f name="target-link" value="difference"/>
+            <f name="attitude-type" value="intention-pos"/>
+        </fs>
+    </a>
+    <node xml:id="n50">
+        <link targets="r106"/>
+    </node>
+    <a label="inside" ref="n50" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n51">
+        <link targets="r108"/>
+    </node>
+    <a label="objective-speech-event" ref="n51" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n52">
+        <link targets="r110"/>
+    </node>
+    <a label="split" ref="n52" as="mpqa"/>
+    <node xml:id="n53">
+        <link targets="r112"/>
+    </node>
+    <a label="inside" ref="n53" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n54">
+        <link targets="r114"/>
+    </node>
+    <a label="direct-subjective" ref="n54" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="intensity" value="medium"/>
+            <f name="attitude-link" value="muchNeeded"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n55">
+        <link targets="r116"/>
+    </node>
+    <a label="agent" ref="n55" as="mpqa">
+        <fs>
+            <f name="id" value="indygo"/>
+            <f name="nested-source" value="w, indygo"/>
+        </fs>
+    </a>
+    <node xml:id="n56">
+        <link targets="r118"/>
+    </node>
+    <a label="attitude" ref="n56" as="mpqa">
+        <fs>
+            <f name="attitude-uncertain" value=""/>
+            <f name="attitude-type" value="sentiment-pos"/>
+            <f name="id" value="muchNeeded"/>
+            <f name="target-link" value="policy"/>
+            <f name="intensity" value="high"/>
+        </fs>
+    </a>
+    <a label="expressive-subjectivity" ref="n56" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+            <f name="polarity" value="positive"/>
+            <f name="intensity" value="high"/>
+        </fs>
+    </a>
+    <node xml:id="n57">
+        <link targets="r121"/>
+    </node>
+    <a label="target" ref="n57" as="mpqa">
+        <fs>
+            <f name="id" value="policy"/>
+        </fs>
+    </a>
+    <node xml:id="n58">
+        <link targets="r123"/>
+    </node>
+    <a label="split" ref="n58" as="mpqa"/>
+    <node xml:id="n59">
+        <link targets="r125"/>
+    </node>
+    <a label="inside" ref="n59" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n6">
+        <link targets="r16"/>
+    </node>
+    <a label="agent" ref="n6" as="mpqa">
+        <fs>
+            <f name="id" value="mccoy"/>
+            <f name="nested-source" value="w, mccoy"/>
+        </fs>
+    </a>
+    <node xml:id="n60">
+        <link targets="r127"/>
+    </node>
+    <a label="direct-subjective" ref="n60" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="attitude-link" value="posProg"/>
+            <f name="polarity" value="positive"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n61">
+        <link targets="r129"/>
+    </node>
+    <a label="attitude" ref="n61" as="mpqa">
+        <fs>
+            <f name="id" value="posProg"/>
+            <f name="target-link" value="posYouProg"/>
+            <f name="intensity" value="medium"/>
+            <f name="attitude-type" value="sentiment-pos"/>
+        </fs>
+    </a>
+    <a label="target" ref="n61" as="mpqa">
+        <fs>
+            <f name="id" value="posYouProg"/>
+        </fs>
+    </a>
+    <node xml:id="n62">
+        <link targets="r132"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n62" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+            <f name="polarity" value="positive"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n63">
+        <link targets="r134"/>
+    </node>
+    <a label="split" ref="n63" as="mpqa"/>
+    <node xml:id="n64">
+        <link targets="r136"/>
+    </node>
+    <a label="inside" ref="n64" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n65">
+        <link targets="r138"/>
+    </node>
+    <a label="objective-speech-event" ref="n65" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n66">
+        <link targets="r140"/>
+    </node>
+    <a label="split" ref="n66" as="mpqa"/>
+    <node xml:id="n67">
+        <link targets="r142"/>
+    </node>
+    <a label="inside" ref="n67" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n68">
+        <link targets="r144"/>
+    </node>
+    <a label="objective-speech-event" ref="n68" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n69">
+        <link targets="r146"/>
+    </node>
+    <a label="split" ref="n69" as="mpqa"/>
+    <node xml:id="n7">
+        <link targets="r18"/>
+    </node>
+    <a label="inside" ref="n7" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n70">
+        <link targets="r148"/>
+    </node>
+    <a label="inside" ref="n70" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n71">
+        <link targets="r150"/>
+    </node>
+    <a label="direct-subjective" ref="n71" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+            <f name="polarity" value="positive"/>
+            <f name="attitude-link" value="exciting"/>
+            <f name="implicit" value="true"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n72">
+        <link targets="r152"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n72" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, mccoy"/>
+            <f name="polarity" value="positive"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n73">
+        <link targets="r154"/>
+    </node>
+    <a label="attitude" ref="n73" as="mpqa">
+        <fs>
+            <f name="id" value="exciting"/>
+            <f name="intensity" value="medium-high"/>
+            <f name="target-link" value="year"/>
+            <f name="attitude-type" value="sentiment-pos"/>
+        </fs>
+    </a>
+    <node xml:id="n74">
+        <link targets="r156"/>
+    </node>
+    <a label="target" ref="n74" as="mpqa">
+        <fs>
+            <f name="id" value="year"/>
+        </fs>
+    </a>
+    <node xml:id="n75">
+        <link targets="r158"/>
+    </node>
+    <a label="agent" ref="n75" as="mpqa">
+        <fs>
+            <f name="id" value="mccoy"/>
+        </fs>
+    </a>
+    <node xml:id="n76">
+        <link targets="r160"/>
+    </node>
+    <a label="inside" ref="n76" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n77">
+        <link targets="r162"/>
+    </node>
+    <a label="split" ref="n77" as="mpqa"/>
+    <node xml:id="n78">
+        <link targets="r164"/>
+    </node>
+    <a label="inside" ref="n78" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n79">
+        <link targets="r166"/>
+    </node>
+    <a label="objective-speech-event" ref="n79" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n8">
+        <link targets="r20"/>
+    </node>
+    <a label="target" ref="n8" as="mpqa">
+        <fs>
+            <f name="id" value="difference"/>
+        </fs>
+    </a>
+    <node xml:id="n80">
+        <link targets="r168"/>
+    </node>
+    <a label="split" ref="n80" as="mpqa"/>
+    <node xml:id="n81">
+        <link targets="r170"/>
+    </node>
+    <a label="inside" ref="n81" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n82">
+        <link targets="r172"/>
+    </node>
+    <a label="objective-speech-event" ref="n82" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n83">
+        <link targets="r174"/>
+    </node>
+    <a label="split" ref="n83" as="mpqa"/>
+    <node xml:id="n84">
+        <link targets="r176"/>
+    </node>
+    <a label="inside" ref="n84" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n85">
+        <link targets="r178"/>
+    </node>
+    <a label="objective-speech-event" ref="n85" as="mpqa">
+        <fs>
+            <f name="implicit" value="true"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n86">
+        <link targets="r180"/>
+    </node>
+    <a label="split" ref="n86" as="mpqa"/>
+    <node xml:id="n87">
+        <link targets="r182"/>
+    </node>
+    <a label="inside" ref="n87" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n88">
+        <link targets="r184"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n88" as="mpqa">
+        <fs>
+            <f name="intensity" value="medium"/>
+            <f name="nested-source-uncertain" value=""/>
+            <f name="polarity" value="positive"/>
+            <f name="nested-source" value="w"/>
+        </fs>
+    </a>
+    <node xml:id="n89">
+        <link targets="r186"/>
+    </node>
+    <a label="direct-subjective" ref="n89" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, w "/>
+            <f name="polarity" value="positive"/>
+            <f name="attitude-link" value=""/>
+            <f name="implicit" value="true"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n9">
+        <link targets="r22"/>
+    </node>
+    <a label="expressive-subjectivity" ref="n9" as="mpqa">
+        <fs>
+            <f name="nested-source" value="w, mccoy"/>
+            <f name="polarity" value="positive"/>
+            <f name="intensity" value="medium"/>
+        </fs>
+    </a>
+    <node xml:id="n90">
+        <link targets="r188"/>
+    </node>
+    <a label="agent" ref="n90" as="mpqa">
+        <fs>
+            <f name="id" value="w"/>
+            <f name="nested-source" value="w, w"/>
+        </fs>
+    </a>
+    <node xml:id="n91">
+        <link targets="r190"/>
+    </node>
+    <a label="split" ref="n91" as="mpqa"/>
+</graph>

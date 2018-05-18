@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Need Get Out Of" occurs="1"/>
+            <tagUsage gi="Saying1" occurs="1"/>
+            <tagUsage gi="Blaming" occurs="1"/>
+            <tagUsage gi="Saying2" occurs="1"/>
+            <tagUsage gi="Saying3" occurs="1"/>
+            <tagUsage gi="Not Speaking" occurs="1"/>
+            <tagUsage gi="Saying4" occurs="1"/>
+            <tagUsage gi="Barring" occurs="1"/>
+            <tagUsage gi="Infant Mortality" occurs="1"/>
+            <tagUsage gi="Want Investigate" occurs="1"/>
+            <tagUsage gi="Need Handle" occurs="1"/>
+            <tagUsage gi="Hoping Separate" occurs="1"/>
+            <tagUsage gi="Telling" occurs="1"/>
+            <tagUsage gi="Want Find Out" occurs="1"/>
+            <tagUsage gi="Suffering" occurs="1"/>
+            <tagUsage gi="Malnutrition" occurs="1"/>
+            <tagUsage gi="Paying Attention" occurs="1"/>
+            <tagUsage gi="Happening" occurs="1"/>
+            <tagUsage gi="Chronic Malnutrition" occurs="1"/>
+            <tagUsage gi="Eliminating" occurs="2"/>
+            <tagUsage gi="Other Hardships" occurs="1"/>
+            <tagUsage gi="Entering" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="473 482"/>
+    <region xml:id="ev-r1" anchors="514 518"/>
+    <region xml:id="ev-r2" anchors="585 603"/>
+    <region xml:id="ev-r3" anchors="697 701"/>
+    <region xml:id="ev-r4" anchors="705 726"/>
+    <region xml:id="ev-r5" anchors="804 813"/>
+    <region xml:id="ev-r6" anchors="819 839"/>
+    <region xml:id="ev-r7" anchors="847 851"/>
+    <region xml:id="ev-r8" anchors="861 885"/>
+    <region xml:id="ev-r9" anchors="894 901"/>
+    <region xml:id="ev-r10" anchors="927 935"/>
+    <region xml:id="ev-r11" anchors="1049 1053"/>
+    <region xml:id="ev-r12" anchors="1058 1080"/>
+    <region xml:id="ev-r13" anchors="1127 1147"/>
+    <region xml:id="ev-r14" anchors="1185 1204"/>
+    <region xml:id="ev-r15" anchors="1265 1271"/>
+    <region xml:id="ev-r16" anchors="1292 1304"/>
+    <region xml:id="ev-r17" anchors="1306 1326"/>
+    <region xml:id="ev-r18" anchors="1331 1346"/>
+    <region xml:id="ev-r19" anchors="1430 1440"/>
+    <region xml:id="ev-r20" anchors="1513 1517"/>
+    <region xml:id="ev-r21" anchors="1525 1532"/>
+    <region xml:id="ev-r22" anchors="1541 1547"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Not Speaking" ref="ev-n0" as="xces">
+        <fs>
+            <f name="arg2" value="reporters"/>
+            <f name="arg3" value="Jordan"/>
+            <f name="arg1" value="Tony Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Telling" ref="ev-n1" as="xces">
+        <fs>
+            <f name="arg4" value="HOPING SEPARATE"/>
+            <f name="arg3" value="United States"/>
+            <f name="arg2" value="Associated Press"/>
+            <f name="arg1" value="Tony Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n10">
+        <link targets="ev-r10"/>
+    </node>
+    <a label="Entering" ref="ev-n10" as="xces">
+        <fs>
+            <f name="arg2" value="the country(Iraq)"/>
+            <f name="arg3" value="under UN oil-for-food program"/>
+            <f name="arg1" value="good &amp; medicine"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n11">
+        <link targets="ev-r11"/>
+    </node>
+    <a label="Saying3" ref="ev-n11" as="xces">
+        <fs>
+            <f name="arg1" value="Tony Hall"/>
+            <f name="arg2" value="WANT FIND OUT"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n12">
+        <link targets="ev-r12"/>
+    </node>
+    <a label="Want Find Out" ref="ev-n12" as="xces">
+        <fs>
+            <f name="arg1" value="Tony Hall"/>
+            <f name="arg2" value="NEED HANDLE OR NEED GET OUT OF"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n13">
+        <link targets="ev-r13"/>
+    </node>
+    <a label="Need Handle" ref="ev-n13" as="xces">
+        <fs>
+            <f name="arg1" value="UN or relief agencies"/>
+            <f name="arg2" value="things differently"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n14">
+        <link targets="ev-r14"/>
+    </node>
+    <a label="Need Get Out Of" ref="ev-n14" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="way"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n15">
+        <link targets="ev-r15"/>
+    </node>
+    <a label="Blaming" ref="ev-n15" as="xces">
+        <fs>
+            <f name="arg2" value="embargo"/>
+            <f name="arg3" value="malnutrition &amp; infant mortality &amp; otherhardships"/>
+            <f name="arg1" value="Iraqi government"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n16">
+        <link targets="ev-r16"/>
+    </node>
+    <a label="Malnutrition" ref="ev-n16" as="xces"/>
+    <node xml:id="ev-n17">
+        <link targets="ev-r17"/>
+    </node>
+    <a label="Infant Mortality" ref="ev-n17" as="xces"/>
+    <node xml:id="ev-n18">
+        <link targets="ev-r18"/>
+    </node>
+    <a label="Other Hardships" ref="ev-n18" as="xces"/>
+    <node xml:id="ev-n19">
+        <link targets="ev-r19"/>
+    </node>
+    <a label="Eliminating" ref="ev-n19" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="WMDs &amp; means to produce them"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Hoping Separate" ref="ev-n2" as="xces">
+        <fs>
+            <f name="arg1" value="Tony Hall"/>
+            <f name="arg2" value="humanitarian work from political issues"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n20">
+        <link targets="ev-r20"/>
+    </node>
+    <a label="Saying4" ref="ev-n20" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="DONE SO"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n21">
+        <link targets="ev-r21"/>
+    </node>
+    <a label="Eliminating" ref="ev-n21" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="WMds &amp; means to produce them"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n22">
+        <link targets="ev-r22"/>
+    </node>
+    <a label="Barring" ref="ev-n22" as="xces">
+        <fs>
+            <f name="arg2" value="inspectors"/>
+            <f name="arg3" value="since 1990"/>
+            <f name="arg1" value="Iraq"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Saying1" ref="ev-n3" as="xces">
+        <fs>
+            <f name="arg2" value="Iraq"/>
+            <f name="arg3" value="WANT INVESTIGATE"/>
+            <f name="arg1" value="Tony Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Want Investigate" ref="ev-n4" as="xces">
+        <fs>
+            <f name="arg2" value="reports from relief agencies"/>
+            <f name="arg3" value="SUFFERING"/>
+            <f name="arg1" value="Tony Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Suffering" ref="ev-n5" as="xces">
+        <fs>
+            <f name="arg1" value="quarter of Iraqi children"/>
+            <f name="arg2" value="chronic malnutrition"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n6">
+        <link targets="ev-r6"/>
+    </node>
+    <a label="Chronic Malnutrition" ref="ev-n6" as="xces"/>
+    <node xml:id="ev-n7">
+        <link targets="ev-r7"/>
+    </node>
+    <a label="Saying2" ref="ev-n7" as="xces">
+        <fs>
+            <f name="arg2" value="Iraq"/>
+            <f name="arg3" value="PAYING ATTENTION"/>
+            <f name="arg1" value="Tony Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n8">
+        <link targets="ev-r8"/>
+    </node>
+    <a label="Paying Attention" ref="ev-n8" as="xces">
+        <fs>
+            <f name="arg1" value="Tony Hall"/>
+            <f name="arg2" value="HAPPENING"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n9">
+        <link targets="ev-r9"/>
+    </node>
+    <a label="Happening" ref="ev-n9" as="xces">
+        <fs>
+            <f name="arg2" value="food &amp; medicine"/>
+            <f name="arg3" value="ENTERING"/>
+            <f name="arg1" value="what"/>
+        </fs>
+    </a>
+</graph>

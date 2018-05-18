@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="body" occurs="1"/>
+            <tagUsage gi="text" occurs="1"/>
+            <tagUsage gi="p" occurs="10"/>
+            <tagUsage gi="cesDoc" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="r2" anchors="0 4182"/>
+    <node xml:id="n2">
+        <link targets="r2"/>
+    </node>
+    <a label="body" ref="n2" as="xces">
+        <fs>
+            <f name="graf:id" value="n1"/>
+            <f name="graf:edge" value="n2 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r1" anchors="0 4182"/>
+    <node xml:id="n1">
+        <link targets="r1"/>
+    </node>
+    <a label="cesDoc" ref="n1" as="xces">
+        <fs>
+            <f name="creator" value="KBS"/>
+            <f name="version" value="1.0.4"/>
+            <f name="graf:id" value="n0"/>
+            <f name="graf:edge" value="n1 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r0" anchors="0 4182"/>
+    <node xml:id="n0">
+        <link targets="r0"/>
+    </node>
+    <a label="text" ref="n0" as="xces">
+        <fs>
+            <f name="graf:id" value="n2"/>
+            <f name="graf:edge" value="n3 n4 n5 n6 n7 n8 n9 n10 n11 "/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r3" anchors="0 243"/>
+    <node xml:id="n3">
+        <link targets="r3"/>
+    </node>
+    <a label="p" ref="n3" as="xces">
+        <fs>
+            <f name="id" value="p1"/>
+            <f name="graf:id" value="n3"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r4" anchors="245 308"/>
+    <node xml:id="n4">
+        <link targets="r4"/>
+    </node>
+    <a label="p" ref="n4" as="xces">
+        <fs>
+            <f name="id" value="p2"/>
+            <f name="graf:id" value="n4"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r5" anchors="310 457"/>
+    <node xml:id="n5">
+        <link targets="r5"/>
+    </node>
+    <a label="p" ref="n5" as="xces">
+        <fs>
+            <f name="id" value="p3"/>
+            <f name="graf:id" value="n5"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r6" anchors="459 856"/>
+    <node xml:id="n6">
+        <link targets="r6"/>
+    </node>
+    <a label="p" ref="n6" as="xces">
+        <fs>
+            <f name="id" value="p4"/>
+            <f name="graf:id" value="n6"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r7" anchors="858 1182"/>
+    <node xml:id="n7">
+        <link targets="r7"/>
+    </node>
+    <a label="p" ref="n7" as="xces">
+        <fs>
+            <f name="id" value="p5"/>
+            <f name="graf:id" value="n7"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r8" anchors="1184 1822"/>
+    <node xml:id="n8">
+        <link targets="r8"/>
+    </node>
+    <a label="p" ref="n8" as="xces">
+        <fs>
+            <f name="id" value="p6"/>
+            <f name="graf:id" value="n8"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r9" anchors="1824 2337"/>
+    <node xml:id="n9">
+        <link targets="r9"/>
+    </node>
+    <a label="p" ref="n9" as="xces">
+        <fs>
+            <f name="id" value="p7"/>
+            <f name="graf:id" value="n9"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r10" anchors="2339 2497"/>
+    <node xml:id="n10">
+        <link targets="r10"/>
+    </node>
+    <a label="p" ref="n10" as="xces">
+        <fs>
+            <f name="id" value="p8"/>
+            <f name="graf:id" value="n10"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <region xml:id="r11" anchors="2499 3355"/>
+    <node xml:id="n11">
+        <link targets="r11"/>
+    </node>
+    <a label="p" ref="n11" as="xces"/>
+    <region xml:id="r12" anchors="3357 4181"/>
+    <node xml:id="n12">
+        <link targets="r12"/>
+    </node>
+    <a label="p" ref="n12" as="xces">
+        <fs>
+            <f name="id" value="p10"/>
+            <f name="graf:id" value="n11"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+</graph>

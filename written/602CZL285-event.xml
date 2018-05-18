@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Collection" occurs="1"/>
+            <tagUsage gi="Educational Programs" occurs="1"/>
+            <tagUsage gi="Bringing" occurs="1"/>
+            <tagUsage gi="Event" occurs="1"/>
+            <tagUsage gi="Blooming" occurs="1"/>
+            <tagUsage gi="Making" occurs="1"/>
+            <tagUsage gi="Admitting" occurs="1"/>
+            <tagUsage gi="Progressing" occurs="1"/>
+            <tagUsage gi="Activity" occurs="2"/>
+            <tagUsage gi="Celebration" occurs="1"/>
+            <tagUsage gi="Showering On" occurs="1"/>
+            <tagUsage gi="Exhibition1" occurs="1"/>
+            <tagUsage gi="Exhibition" occurs="1"/>
+            <tagUsage gi="Benefits" occurs="1"/>
+            <tagUsage gi="Marking" occurs="1"/>
+            <tagUsage gi="Restoring" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="365 375"/>
+    <region xml:id="ev-r1" anchors="395 403"/>
+    <region xml:id="ev-r2" anchors="520 529"/>
+    <region xml:id="ev-r3" anchors="555 565"/>
+    <region xml:id="ev-r4" anchors="769 775"/>
+    <region xml:id="ev-r5" anchors="777 788"/>
+    <region xml:id="ev-r6" anchors="794 814"/>
+    <region xml:id="ev-r7" anchors="901 909"/>
+    <region xml:id="ev-r8" anchors="989 997"/>
+    <region xml:id="ev-r9" anchors="1062 1073"/>
+    <region xml:id="ev-r10" anchors="1086 1096"/>
+    <region xml:id="ev-r11" anchors="1227 1232"/>
+    <region xml:id="ev-r12" anchors="1302 1312"/>
+    <region xml:id="ev-r13" anchors="1528 1536"/>
+    <region xml:id="ev-r14" anchors="1577 1582"/>
+    <region xml:id="ev-r15" anchors="2043 2054"/>
+    <region xml:id="ev-r16" anchors="2118 2122"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Activity" ref="ev-n0" as="xces">
+        <fs>
+            <f name="beneficiary" value="donors"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Benefits" ref="ev-n1" as="xces">
+        <fs>
+            <f name="beneficiary" value="donors"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n10">
+        <link targets="ev-r10"/>
+    </node>
+    <a label="Exhibition1" ref="ev-n10" as="xces">
+        <fs>
+            <f name="theme" value="Japanese Painting"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n11">
+        <link targets="ev-r11"/>
+    </node>
+    <a label="Blooming" ref="ev-n11" as="xces">
+        <fs>
+            <f name="theme" value="1000s of trees &amp; flowers"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n12">
+        <link targets="ev-r12"/>
+    </node>
+    <a label="Collection" ref="ev-n12" as="xces"/>
+    <node xml:id="ev-n13">
+        <link targets="ev-r13"/>
+    </node>
+    <a label="Bringing" ref="ev-n13" as="xces">
+        <fs>
+            <f name="source" value="ranks"/>
+            <f name="beneficiary" value="city"/>
+            <f name="theme" value="art and art education"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n14">
+        <link targets="ev-r14"/>
+    </node>
+    <a label="Making" ref="ev-n14" as="xces">
+        <fs>
+            <f name="cause" value="art and art education"/>
+            <f name="aim" value="life better, richer &amp; more rewarding"/>
+            <f name="beneficiary" value="entire community"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n15">
+        <link targets="ev-r15"/>
+    </node>
+    <a label="Celebration" ref="ev-n15" as="xces">
+        <fs>
+            <f name="time" value="October 11 2000"/>
+            <f name="cause" value="SCS Founders Day"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n16">
+        <link targets="ev-r16"/>
+    </node>
+    <a label="Marking" ref="ev-n16" as="xces">
+        <fs>
+            <f name="theme" value="calendar"/>
+            <f name="agent" value="you"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Admitting" ref="ev-n2" as="xces">
+        <fs>
+            <f name="beneficiary" value="you"/>
+            <f name="goal" value="art-related activities"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Activity" ref="ev-n3" as="xces"/>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Event" ref="ev-n4" as="xces"/>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Exhibition" ref="ev-n5" as="xces"/>
+    <node xml:id="ev-n6">
+        <link targets="ev-r6"/>
+    </node>
+    <a label="Educational Programs" ref="ev-n6" as="xces"/>
+    <node xml:id="ev-n7">
+        <link targets="ev-r7"/>
+    </node>
+    <a label="Progressing" ref="ev-n7" as="xces">
+        <fs>
+            <f name="theme" value="J.K. Lilly estate-Oldfields"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n8">
+        <link targets="ev-r8"/>
+    </node>
+    <a label="Restoring" ref="ev-n8" as="xces">
+        <fs>
+            <f name="agent" value="IMA"/>
+            <f name="theme" value="Ravine Garden"/>
+            <f name="goal" value="original splendor"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n9">
+        <link targets="ev-r9"/>
+    </node>
+    <a label="Showering On" ref="ev-n9" as="xces">
+        <fs>
+            <f name="theme1" value="national attention"/>
+            <f name="theme2" value="Exhibition2"/>
+        </fs>
+    </a>
+</graph>

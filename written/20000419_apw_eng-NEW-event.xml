@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Not Buying" occurs="1"/>
+            <tagUsage gi="Invading" occurs="1"/>
+            <tagUsage gi="Delivering" occurs="1"/>
+            <tagUsage gi="Appearing" occurs="1"/>
+            <tagUsage gi="Holding Up" occurs="1"/>
+            <tagUsage gi="Make Sure Not Hurt" occurs="1"/>
+            <tagUsage gi="Force Give Up" occurs="1"/>
+            <tagUsage gi="Ridding" occurs="1"/>
+            <tagUsage gi="Easing" occurs="1"/>
+            <tagUsage gi="Assessing" occurs="1"/>
+            <tagUsage gi="Impact" occurs="1"/>
+            <tagUsage gi="Using For" occurs="2"/>
+            <tagUsage gi="Saying1" occurs="1"/>
+            <tagUsage gi="Not Calling For" occurs="1"/>
+            <tagUsage gi="Saying2" occurs="2"/>
+            <tagUsage gi="Can Do Better Job Helping" occurs="1"/>
+            <tagUsage gi="Saying3" occurs="1"/>
+            <tagUsage gi="Imposing" occurs="1"/>
+            <tagUsage gi="Making" occurs="1"/>
+            <tagUsage gi="Telling" occurs="1"/>
+            <tagUsage gi="Want To Ensure" occurs="1"/>
+            <tagUsage gi="Dealing With" occurs="1"/>
+            <tagUsage gi="Using OR Exporting" occurs="1"/>
+            <tagUsage gi="Compelling" occurs="1"/>
+            <tagUsage gi="Using" occurs="1"/>
+            <tagUsage gi="Lifting" occurs="1"/>
+            <tagUsage gi="Insisting" occurs="1"/>
+            <tagUsage gi="Appealing" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="18 25"/>
+    <region xml:id="ev-r1" anchors="131 140"/>
+    <region xml:id="ev-r2" anchors="145 151"/>
+    <region xml:id="ev-r3" anchors="178 182"/>
+    <region xml:id="ev-r4" anchors="222 249"/>
+    <region xml:id="ev-r5" anchors="295 313"/>
+    <region xml:id="ev-r6" anchors="383 395"/>
+    <region xml:id="ev-r7" anchors="398 405"/>
+    <region xml:id="ev-r8" anchors="419 426"/>
+    <region xml:id="ev-r9" anchors="452 460"/>
+    <region xml:id="ev-r10" anchors="476 480"/>
+    <region xml:id="ev-r11" anchors="511 547"/>
+    <region xml:id="ev-r12" anchors="598 607"/>
+    <region xml:id="ev-r13" anchors="613 619"/>
+    <region xml:id="ev-r14" anchors="681 694"/>
+    <region xml:id="ev-r15" anchors="728 732"/>
+    <region xml:id="ev-r16" anchors="777 785"/>
+    <region xml:id="ev-r17" anchors="814 853"/>
+    <region xml:id="ev-r18" anchors="859 868"/>
+    <region xml:id="ev-r19" anchors="1067 1071"/>
+    <region xml:id="ev-r20" anchors="1102 1109"/>
+    <region xml:id="ev-r21" anchors="1110 1118"/>
+    <region xml:id="ev-r22" anchors="1143 1148"/>
+    <region xml:id="ev-r23" anchors="1208 1212"/>
+    <region xml:id="ev-r24" anchors="1216 1231"/>
+    <region xml:id="ev-r25" anchors="1245 1255"/>
+    <region xml:id="ev-r26" anchors="1267 1273"/>
+    <region xml:id="ev-r28" anchors="1325 1333"/>
+    <region xml:id="ev-r27" anchors="1325 1333"/>
+    <region xml:id="ev-r29" anchors="1334 1340"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Appealing" ref="ev-n0" as="xces">
+        <fs>
+            <f name="arg1" value="lawmaker"/>
+            <f name="arg2" value="for innocent Iraqis"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Assessing" ref="ev-n1" as="xces">
+        <fs>
+            <f name="arg1" value="US lawmaker"/>
+            <f name="arg2" value="IMPACT"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n10">
+        <link targets="ev-r10"/>
+    </node>
+    <a label="Saying2" ref="ev-n10" as="xces">
+        <fs>
+            <f name="arg1" value="Tony Hall"/>
+            <f name="arg2" value="MAKE SURE NOT HURT"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n11">
+        <link targets="ev-r11"/>
+    </node>
+    <a label="Make Sure Not Hurt" ref="ev-n11" as="xces">
+        <fs>
+            <f name="arg2" value="sanctions"/>
+            <f name="arg3" value="innocent Iraqis"/>
+            <f name="arg1" value="UN"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n12">
+        <link targets="ev-r12"/>
+    </node>
+    <a label="Compelling" ref="ev-n12" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="RIDDING"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n13">
+        <link targets="ev-r13"/>
+    </node>
+    <a label="Ridding" ref="ev-n13" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="WMDs"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n14">
+        <link targets="ev-r14"/>
+    </node>
+    <a label="Using OR Exporting" ref="ev-n14" as="xces">
+        <fs>
+            <f name="arg2" value="WMDs"/>
+            <f name="arg3" value="other countries"/>
+            <f name="arg1" value="Iraq"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n15">
+        <link targets="ev-r15"/>
+    </node>
+    <a label="Telling" ref="ev-n15" as="xces">
+        <fs>
+            <f name="arg2" value="COMPELLING &amp; NOT USING OR EXPORTING"/>
+            <f name="arg3" value="Associated Press Television News"/>
+            <f name="arg1" value="Tony Hall"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n16">
+        <link targets="ev-r16"/>
+    </node>
+    <a label="Insisting" ref="ev-n16" as="xces">
+        <fs>
+            <f name="arg1" value="Tony Hall"/>
+            <f name="arg2" value="CAN DO BETTER JOB HELPING"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n17">
+        <link targets="ev-r17"/>
+    </node>
+    <a label="Can Do Better Job Helping" ref="ev-n17" as="xces">
+        <fs>
+            <f name="arg2" value="Iraq"/>
+            <f name="arg3" value="DEALING WITH"/>
+            <f name="arg1" value="international community"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n18">
+        <link targets="ev-r18"/>
+    </node>
+    <a label="Dealing With" ref="ev-n18" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="economic &amp; health problems"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n19">
+        <link targets="ev-r19"/>
+    </node>
+    <a label="Saying2" ref="ev-n19" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="HOLDING UP"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Impact" ref="ev-n2" as="xces">
+        <fs>
+            <f name="arg1" value="UN sanctions"/>
+            <f name="arg2" value="on Iraq"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n20">
+        <link targets="ev-r20"/>
+    </node>
+    <a label="Holding Up" ref="ev-n20" as="xces">
+        <fs>
+            <f name="arg2" value="DELIVERING"/>
+            <f name="arg3" value="USING"/>
+            <f name="arg1" value="US &amp; Britain"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n21">
+        <link targets="ev-r21"/>
+    </node>
+    <a label="Delivering" ref="ev-n21" as="xces">
+        <fs>
+            <f name="arg1" value="of needed supplies"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n22">
+        <link targets="ev-r22"/>
+    </node>
+    <a label="Using" ref="ev-n22" as="xces">
+        <fs>
+            <f name="arg1" value="US &amp; Britain"/>
+            <f name="arg2" value="clout in the UN"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n23">
+        <link targets="ev-r23"/>
+    </node>
+    <a label="Saying3" ref="ev-n23" as="xces">
+        <fs>
+            <f name="arg1" value="US government"/>
+            <f name="arg2" value="WANT TO ENSURE"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n24">
+        <link targets="ev-r24"/>
+    </node>
+    <a label="Want To Ensure" ref="ev-n24" as="xces">
+        <fs>
+            <f name="arg1" value="US government"/>
+            <f name="arg2" value="NOT BUYING"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n25">
+        <link targets="ev-r25"/>
+    </node>
+    <a label="Not Buying" ref="ev-n25" as="xces">
+        <fs>
+            <f name="arg1" value="Iraq"/>
+            <f name="arg2" value="APPEARING BUT USING FOR"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n26">
+        <link targets="ev-r26"/>
+    </node>
+    <a label="Appearing" ref="ev-n26" as="xces">
+        <fs>
+            <f name="arg1" value="items"/>
+            <f name="arg2" value="humanitarian in nature"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n27">
+        <link targets="ev-r27"/>
+    </node>
+    <a label="Using For" ref="ev-n27" as="xces"/>
+    <node xml:id="ev-n28">
+        <link targets="ev-r28"/>
+    </node>
+    <a label="Using For" ref="ev-n28" as="xces">
+        <fs>
+            <f name="arg1" value="items"/>
+            <f name="arg2" value="MAKING"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n29">
+        <link targets="ev-r29"/>
+    </node>
+    <a label="Making" ref="ev-n29" as="xces">
+        <fs>
+            <f name="arg1" value="items"/>
+            <f name="arg2" value="weapons"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Saying1" ref="ev-n3" as="xces">
+        <fs>
+            <f name="arg1" value="US lawmaker"/>
+            <f name="arg2" value="FORCE GIVE UP &amp; EASING"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Force Give Up" ref="ev-n4" as="xces">
+        <fs>
+            <f name="arg1" value="Baghdad"/>
+            <f name="arg2" value="WMDs"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Easing" ref="ev-n5" as="xces">
+        <fs>
+            <f name="arg1" value="Baghdad"/>
+            <f name="arg2" value="hardships on ordinary Iraqis"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n6">
+        <link targets="ev-r6"/>
+    </node>
+    <a label="Not Calling For" ref="ev-n6" as="xces">
+        <fs>
+            <f name="arg1" value="Tony Hall"/>
+            <f name="arg2" value="LIFTING"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n7">
+        <link targets="ev-r7"/>
+    </node>
+    <a label="Lifting" ref="ev-n7" as="xces">
+        <fs>
+            <f name="arg1" value="sanctions"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n8">
+        <link targets="ev-r8"/>
+    </node>
+    <a label="Imposing" ref="ev-n8" as="xces">
+        <fs>
+            <f name="arg2" value="on Iraq"/>
+            <f name="arg3" value="1990"/>
+            <f name="arg1" value="sanctions"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n9">
+        <link targets="ev-r9"/>
+    </node>
+    <a label="Invading" ref="ev-n9" as="xces">
+        <fs>
+            <f name="arg2" value="Kuwait"/>
+            <f name="arg3" value="1990"/>
+            <f name="arg1" value="Iraq"/>
+        </fs>
+    </a>
+</graph>

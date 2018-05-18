@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="tok" occurs="54"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="seg"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="FrameNet" type="http://framenet.icsi.berkeley.edu"/>
+        </annotationSets>
+    </header>
+    <node xml:id="fn-n10">
+        <link targets="seg-r9"/>
+    </node>
+    <a label="tok" ref="fn-n10" as="FrameNet">
+        <fs>
+            <f name="msd" value="sent"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n11">
+        <link targets="seg-r11"/>
+    </node>
+    <a label="tok" ref="fn-n11" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n119">
+        <link targets="seg-r96"/>
+    </node>
+    <a label="tok" ref="fn-n119" as="FrameNet">
+        <fs>
+            <f name="msd" value="in"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n12">
+        <link targets="seg-r13"/>
+    </node>
+    <a label="tok" ref="fn-n12" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n120">
+        <link targets="seg-r98"/>
+    </node>
+    <a label="tok" ref="fn-n120" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n121">
+        <link targets="seg-r100"/>
+    </node>
+    <a label="tok" ref="fn-n121" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n122">
+        <link targets="seg-r101"/>
+    </node>
+    <a label="tok" ref="fn-n122" as="FrameNet">
+        <fs>
+            <f name="msd" value="sent"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n13">
+        <link targets="seg-r14"/>
+    </node>
+    <a label="tok" ref="fn-n13" as="FrameNet">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="fn-n14">
+        <link targets="seg-r16 seg-r17"/>
+    </node>
+    <a label="tok" ref="fn-n14" as="FrameNet">
+        <fs>
+            <f name="msd" value="nn"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n15">
+        <link targets="seg-r18"/>
+    </node>
+    <a label="tok" ref="fn-n15" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n16">
+        <link targets="seg-r19"/>
+    </node>
+    <a label="tok" ref="fn-n16" as="FrameNet">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="fn-n17">
+        <link targets="seg-r21"/>
+    </node>
+    <a label="tok" ref="fn-n17" as="FrameNet">
+        <fs>
+            <f name="msd" value="VVZ"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n18">
+        <link targets="seg-r23"/>
+    </node>
+    <a label="tok" ref="fn-n18" as="FrameNet">
+        <fs>
+            <f name="msd" value="dt"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n19">
+        <link targets="seg-r25"/>
+    </node>
+    <a label="tok" ref="fn-n19" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n2">
+        <link targets="seg-r0 seg-r1 seg-r2"/>
+    </node>
+    <a label="tok" ref="fn-n2" as="FrameNet">
+        <fs>
+            <f name="msd" value="nn"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n20">
+        <link targets="seg-r27"/>
+    </node>
+    <a label="tok" ref="fn-n20" as="FrameNet">
+        <fs>
+            <f name="msd" value="NPS"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n21">
+        <link targets="seg-r29"/>
+    </node>
+    <a label="tok" ref="fn-n21" as="FrameNet">
+        <fs>
+            <f name="msd" value="to"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n22">
+        <link targets="seg-r31"/>
+    </node>
+    <a label="tok" ref="fn-n22" as="FrameNet">
+        <fs>
+            <f name="msd" value="VV"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n23">
+        <link targets="seg-r33"/>
+    </node>
+    <a label="tok" ref="fn-n23" as="FrameNet">
+        <fs>
+            <f name="msd" value="dt"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n24">
+        <link targets="seg-r35"/>
+    </node>
+    <a label="tok" ref="fn-n24" as="FrameNet">
+        <fs>
+            <f name="msd" value="jjr"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n25">
+        <link targets="seg-r37"/>
+    </node>
+    <a label="tok" ref="fn-n25" as="FrameNet">
+        <fs>
+            <f name="msd" value="nn"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n26">
+        <link targets="seg-r39"/>
+    </node>
+    <a label="tok" ref="fn-n26" as="FrameNet">
+        <fs>
+            <f name="msd" value="in"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n27">
+        <link targets="seg-r41"/>
+    </node>
+    <a label="tok" ref="fn-n27" as="FrameNet">
+        <fs>
+            <f name="msd" value="nn"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n28">
+        <link targets="seg-r43"/>
+    </node>
+    <a label="tok" ref="fn-n28" as="FrameNet">
+        <fs>
+            <f name="msd" value="cc"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n29">
+        <link targets="seg-r45"/>
+    </node>
+    <a label="tok" ref="fn-n29" as="FrameNet">
+        <fs>
+            <f name="msd" value="nn"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n3">
+        <link targets="seg-r4"/>
+    </node>
+    <a label="tok" ref="fn-n3" as="FrameNet">
+        <fs>
+            <f name="msd" value="("/>
+        </fs>
+    </a>
+    <node xml:id="fn-n30">
+        <link targets="seg-r47"/>
+    </node>
+    <a label="tok" ref="fn-n30" as="FrameNet">
+        <fs>
+            <f name="msd" value="in"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n31">
+        <link targets="seg-r49"/>
+    </node>
+    <a label="tok" ref="fn-n31" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n32">
+        <link targets="seg-r50"/>
+    </node>
+    <a label="tok" ref="fn-n32" as="FrameNet">
+        <fs>
+            <f name="msd" value="sent"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n4">
+        <link targets="seg-r5"/>
+    </node>
+    <a label="tok" ref="fn-n4" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n5">
+        <link targets="seg-r6"/>
+    </node>
+    <a label="tok" ref="fn-n5" as="FrameNet">
+        <fs>
+            <f name="msd" value=")"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n55">
+        <link targets="seg-r52"/>
+    </node>
+    <a label="tok" ref="fn-n55" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n56">
+        <link targets="seg-r53"/>
+    </node>
+    <a label="tok" ref="fn-n56" as="FrameNet">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="fn-n57">
+        <link targets="seg-r55"/>
+    </node>
+    <a label="tok" ref="fn-n57" as="FrameNet">
+        <fs>
+            <f name="msd" value="wp"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n58">
+        <link targets="seg-r57"/>
+    </node>
+    <a label="tok" ref="fn-n58" as="FrameNet">
+        <fs>
+            <f name="msd" value="rb"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n59">
+        <link targets="seg-r59"/>
+    </node>
+    <a label="tok" ref="fn-n59" as="FrameNet">
+        <fs>
+            <f name="msd" value="VVD"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n60">
+        <link targets="seg-r61"/>
+    </node>
+    <a label="tok" ref="fn-n60" as="FrameNet">
+        <fs>
+            <f name="msd" value="in"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n61">
+        <link targets="seg-r63"/>
+    </node>
+    <a label="tok" ref="fn-n61" as="FrameNet">
+        <fs>
+            <f name="msd" value="dt"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n62">
+        <link targets="seg-r65"/>
+    </node>
+    <a label="tok" ref="fn-n62" as="FrameNet">
+        <fs>
+            <f name="msd" value="nn"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n63">
+        <link targets="seg-r67"/>
+    </node>
+    <a label="tok" ref="fn-n63" as="FrameNet">
+        <fs>
+            <f name="msd" value="to"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n64">
+        <link targets="seg-r69"/>
+    </node>
+    <a label="tok" ref="fn-n64" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n65">
+        <link targets="seg-r70"/>
+    </node>
+    <a label="tok" ref="fn-n65" as="FrameNet">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="fn-n66">
+        <link targets="seg-r72"/>
+    </node>
+    <a label="tok" ref="fn-n66" as="FrameNet">
+        <fs>
+            <f name="msd" value="VVD"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n67">
+        <link targets="seg-r74 seg-r75 seg-r76 seg-r77"/>
+    </node>
+    <a label="tok" ref="fn-n67" as="FrameNet">
+        <fs>
+            <f name="msd" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n68">
+        <link targets="seg-r79"/>
+    </node>
+    <a label="tok" ref="fn-n68" as="FrameNet">
+        <fs>
+            <f name="msd" value="jj"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n69">
+        <link targets="seg-r81"/>
+    </node>
+    <a label="tok" ref="fn-n69" as="FrameNet">
+        <fs>
+            <f name="msd" value="nns"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n70">
+        <link targets="seg-r83"/>
+    </node>
+    <a label="tok" ref="fn-n70" as="FrameNet">
+        <fs>
+            <f name="msd" value="VHP"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n71">
+        <link targets="seg-r85"/>
+    </node>
+    <a label="tok" ref="fn-n71" as="FrameNet">
+        <fs>
+            <f name="msd" value="VVN"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n72">
+        <link targets="seg-r87"/>
+    </node>
+    <a label="tok" ref="fn-n72" as="FrameNet">
+        <fs>
+            <f name="msd" value="nns"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n73">
+        <link targets="seg-r89"/>
+    </node>
+    <a label="tok" ref="fn-n73" as="FrameNet">
+        <fs>
+            <f name="msd" value="in"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n74">
+        <link targets="seg-r91"/>
+    </node>
+    <a label="tok" ref="fn-n74" as="FrameNet">
+        <fs>
+            <f name="msd" value="nns"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n75">
+        <link targets="seg-r93"/>
+    </node>
+    <a label="tok" ref="fn-n75" as="FrameNet">
+        <fs>
+            <f name="msd" value="rb"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n76">
+        <link targets="seg-r94"/>
+    </node>
+    <a label="tok" ref="fn-n76" as="FrameNet">
+        <fs>
+            <f name="msd" value="sent"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n9">
+        <link targets="seg-r8"/>
+    </node>
+    <a label="tok" ref="fn-n9" as="FrameNet">
+        <fs>
+            <f name="msd" value="nn"/>
+        </fs>
+    </a>
+</graph>

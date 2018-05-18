@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="fullTextAnnotation" occurs="1"/>
+            <tagUsage gi="Target" occurs="12"/>
+            <tagUsage gi="FE" occurs="31"/>
+            <tagUsage gi="sentence" occurs="4"/>
+            <tagUsage gi="annotationSet" occurs="12"/>
+            <tagUsage gi="NamedEntity" occurs="10"/>
+        </tagsDecl>
+        <roots>
+            <root>fn-n0</root>
+        </roots>
+        <dependencies>
+            <dependsOn type="fntok"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="FrameNet" type="http://framenet.icsi.berkeley.edu"/>
+        </annotationSets>
+    </header>
+    <node xml:id="fn-n0"/>
+    <a label="fullTextAnnotation" ref="fn-n0" as="FrameNet">
+        <fs>
+            <f name="xmlns" value="http://framenet.icsi.berkeley.edu"/>
+            <f name="xmlns:xsi" value="http://www.w3.org/2001/XMLSchema-instance"/>
+            <f name="xsi:schemaLocation" value="fullText.xsd"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n118"/>
+    <a label="sentence" ref="fn-n118" as="FrameNet">
+        <fs>
+            <f name="ID" value="1276573"/>
+            <f name="aPos" value="0"/>
+            <f name="corpID" value="204"/>
+            <f name="docID" value="694"/>
+            <f name="parag" value="2"/>
+        </fs>
+    </a>
+    <edge xml:id="e190" from="fn-n118" to="fn-n122"/>
+    <edge xml:id="e189" from="fn-n118" to="fn-n119"/>
+    <node xml:id="fn-n123"/>
+    <a label="NamedEntity" ref="fn-n123" as="FrameNet">
+        <fs>
+            <f name="NER" value="organization"/>
+        </fs>
+    </a>
+    <edge xml:id="e188" from="fn-n123" to="fn-n121"/>
+    <edge xml:id="e187" from="fn-n123" to="fn-n120"/>
+    <edge xml:id="e186" from="fn-n118" to="fn-n123"/>
+    <edge xml:id="e185" from="fn-n0" to="fn-n118"/>
+    <node xml:id="fn-n8"/>
+    <a label="sentence" ref="fn-n8" as="FrameNet">
+        <fs>
+            <f name="ID" value="1276571"/>
+            <f name="aPos" value="0"/>
+            <f name="corpID" value="204"/>
+            <f name="docID" value="694"/>
+            <f name="parag" value="2"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n49"/>
+    <a label="annotationSet" ref="fn-n49" as="FrameNet">
+        <fs>
+            <f name="ID" value="2019800"/>
+            <f name="frameName" value="Grant_permission"/>
+            <f name="frameRef" value="506"/>
+            <f name="lexUnitRef" value="8025"/>
+            <f name="luName" value="allow.v"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n50"/>
+    <a label="FE" ref="fn-n50" as="FrameNet">
+        <fs>
+            <f name="FE" value="Action"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Obj"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e69" from="fn-n50" to="fn-n30"/>
+    <edge xml:id="e68" from="fn-n50" to="fn-n29"/>
+    <edge xml:id="e67" from="fn-n50" to="fn-n28"/>
+    <edge xml:id="e66" from="fn-n50" to="fn-n27"/>
+    <edge xml:id="e65" from="fn-n50" to="fn-n26"/>
+    <edge xml:id="e64" from="fn-n50" to="fn-n25"/>
+    <edge xml:id="e63" from="fn-n50" to="fn-n24"/>
+    <edge xml:id="e62" from="fn-n50" to="fn-n23"/>
+    <edge xml:id="e70" from="fn-n50" to="fn-n31"/>
+    <edge xml:id="e61" from="fn-n49" to="fn-n50"/>
+    <node xml:id="fn-n53"/>
+    <a label="Target" ref="fn-n53" as="FrameNet"/>
+    <edge xml:id="e77" from="fn-n53" to="fn-n22"/>
+    <edge xml:id="e76" from="fn-n49" to="fn-n53"/>
+    <node xml:id="fn-n52"/>
+    <a label="FE" ref="fn-n52" as="FrameNet">
+        <fs>
+            <f name="FE" value="Grantor"/>
+            <f name="rank" value="1"/>
+            <f name="itype" value="INI"/>
+        </fs>
+    </a>
+    <edge xml:id="e75" from="fn-n49" to="fn-n52"/>
+    <node xml:id="fn-n51"/>
+    <a label="FE" ref="fn-n51" as="FrameNet">
+        <fs>
+            <f name="FE" value="Grantee"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e74" from="fn-n51" to="fn-n20"/>
+    <edge xml:id="e73" from="fn-n51" to="fn-n19"/>
+    <edge xml:id="e72" from="fn-n51" to="fn-n18"/>
+    <edge xml:id="e71" from="fn-n49" to="fn-n51"/>
+    <edge xml:id="e60" from="fn-n8" to="fn-n49"/>
+    <node xml:id="fn-n45"/>
+    <a label="annotationSet" ref="fn-n45" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013041"/>
+            <f name="frameName" value="Goal"/>
+            <f name="frameRef" value="1177"/>
+            <f name="lexUnitRef" value="14413"/>
+            <f name="luName" value="into.prep"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n48"/>
+    <a label="Target" ref="fn-n48" as="FrameNet"/>
+    <edge xml:id="e59" from="fn-n48" to="fn-n30"/>
+    <edge xml:id="e58" from="fn-n45" to="fn-n48"/>
+    <node xml:id="fn-n47"/>
+    <a label="FE" ref="fn-n47" as="FrameNet">
+        <fs>
+            <f name="FE" value="Trajector"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e57" from="fn-n47" to="fn-n29"/>
+    <edge xml:id="e56" from="fn-n47" to="fn-n28"/>
+    <edge xml:id="e55" from="fn-n47" to="fn-n27"/>
+    <edge xml:id="e54" from="fn-n45" to="fn-n47"/>
+    <node xml:id="fn-n46"/>
+    <a label="FE" ref="fn-n46" as="FrameNet">
+        <fs>
+            <f name="FE" value="Landmark"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Obj"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e53" from="fn-n46" to="fn-n31"/>
+    <edge xml:id="e52" from="fn-n45" to="fn-n46"/>
+    <edge xml:id="e51" from="fn-n8" to="fn-n45"/>
+    <node xml:id="fn-n42"/>
+    <a label="annotationSet" ref="fn-n42" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013040"/>
+            <f name="frameName" value="Food"/>
+            <f name="frameRef" value="277"/>
+            <f name="lexUnitRef" value="13129"/>
+            <f name="luName" value="food.n"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n44"/>
+    <a label="Target" ref="fn-n44" as="FrameNet"/>
+    <edge xml:id="e50" from="fn-n44" to="fn-n27"/>
+    <edge xml:id="e49" from="fn-n42" to="fn-n44"/>
+    <node xml:id="fn-n43"/>
+    <a label="FE" ref="fn-n43" as="FrameNet">
+        <fs>
+            <f name="FE" value="Food"/>
+            <f name="rank" value="1"/>
+        </fs>
+    </a>
+    <edge xml:id="e48" from="fn-n43" to="fn-n27"/>
+    <edge xml:id="e47" from="fn-n42" to="fn-n43"/>
+    <edge xml:id="e46" from="fn-n8" to="fn-n42"/>
+    <node xml:id="fn-n37"/>
+    <a label="annotationSet" ref="fn-n37" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013038"/>
+            <f name="frameName" value="Attempt_suasion"/>
+            <f name="frameRef" value="87"/>
+            <f name="lexUnitRef" value="1805"/>
+            <f name="luName" value="urge.v"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n41"/>
+    <a label="Target" ref="fn-n41" as="FrameNet"/>
+    <edge xml:id="e45" from="fn-n41" to="fn-n17"/>
+    <edge xml:id="e44" from="fn-n37" to="fn-n41"/>
+    <node xml:id="fn-n40"/>
+    <a label="FE" ref="fn-n40" as="FrameNet">
+        <fs>
+            <f name="FE" value="Speaker"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e43" from="fn-n40" to="fn-n16"/>
+    <edge xml:id="e42" from="fn-n40" to="fn-n15"/>
+    <edge xml:id="e41" from="fn-n40" to="fn-n14"/>
+    <edge xml:id="e40" from="fn-n40" to="fn-n13"/>
+    <edge xml:id="e39" from="fn-n40" to="fn-n12"/>
+    <edge xml:id="e38" from="fn-n40" to="fn-n11"/>
+    <edge xml:id="e37" from="fn-n40" to="fn-n10"/>
+    <edge xml:id="e36" from="fn-n40" to="fn-n9"/>
+    <edge xml:id="e35" from="fn-n37" to="fn-n40"/>
+    <node xml:id="fn-n39"/>
+    <a label="FE" ref="fn-n39" as="FrameNet">
+        <fs>
+            <f name="FE" value="Content"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="VPto"/>
+        </fs>
+    </a>
+    <edge xml:id="e34" from="fn-n39" to="fn-n31"/>
+    <edge xml:id="e33" from="fn-n39" to="fn-n30"/>
+    <edge xml:id="e32" from="fn-n39" to="fn-n29"/>
+    <edge xml:id="e31" from="fn-n39" to="fn-n28"/>
+    <edge xml:id="e30" from="fn-n39" to="fn-n27"/>
+    <edge xml:id="e29" from="fn-n39" to="fn-n26"/>
+    <edge xml:id="e28" from="fn-n39" to="fn-n25"/>
+    <edge xml:id="e27" from="fn-n39" to="fn-n24"/>
+    <edge xml:id="e26" from="fn-n39" to="fn-n23"/>
+    <edge xml:id="e25" from="fn-n39" to="fn-n22"/>
+    <edge xml:id="e24" from="fn-n39" to="fn-n21"/>
+    <edge xml:id="e23" from="fn-n37" to="fn-n39"/>
+    <node xml:id="fn-n38"/>
+    <a label="FE" ref="fn-n38" as="FrameNet">
+        <fs>
+            <f name="FE" value="Addressee"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Obj"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e22" from="fn-n38" to="fn-n20"/>
+    <edge xml:id="e21" from="fn-n38" to="fn-n19"/>
+    <edge xml:id="e20" from="fn-n38" to="fn-n18"/>
+    <edge xml:id="e19" from="fn-n37" to="fn-n38"/>
+    <edge xml:id="e18" from="fn-n8" to="fn-n37"/>
+    <node xml:id="fn-n36"/>
+    <a label="NamedEntity" ref="fn-n36" as="FrameNet">
+        <fs>
+            <f name="NER" value="location"/>
+        </fs>
+    </a>
+    <edge xml:id="e17" from="fn-n36" to="fn-n31"/>
+    <edge xml:id="e16" from="fn-n8" to="fn-n36"/>
+    <node xml:id="fn-n35"/>
+    <a label="NamedEntity" ref="fn-n35" as="FrameNet">
+        <fs>
+            <f name="NER" value="organization"/>
+        </fs>
+    </a>
+    <edge xml:id="e15" from="fn-n35" to="fn-n20"/>
+    <edge xml:id="e14" from="fn-n35" to="fn-n19"/>
+    <edge xml:id="e13" from="fn-n8" to="fn-n35"/>
+    <node xml:id="fn-n34"/>
+    <a label="NamedEntity" ref="fn-n34" as="FrameNet">
+        <fs>
+            <f name="NER" value="location"/>
+        </fs>
+    </a>
+    <edge xml:id="e12" from="fn-n34" to="fn-n15"/>
+    <edge xml:id="e11" from="fn-n8" to="fn-n34"/>
+    <node xml:id="fn-n33"/>
+    <a label="NamedEntity" ref="fn-n33" as="FrameNet">
+        <fs>
+            <f name="NER" value="person"/>
+        </fs>
+    </a>
+    <edge xml:id="e10" from="fn-n33" to="fn-n12"/>
+    <edge xml:id="e9" from="fn-n33" to="fn-n11"/>
+    <edge xml:id="e8" from="fn-n8" to="fn-n33"/>
+    <edge xml:id="e78" from="fn-n8" to="fn-n32"/>
+    <edge xml:id="e7" from="fn-n0" to="fn-n8"/>
+    <node xml:id="fn-n1"/>
+    <a label="sentence" ref="fn-n1" as="FrameNet">
+        <fs>
+            <f name="ID" value="1276570"/>
+            <f name="aPos" value="0"/>
+            <f name="corpID" value="204"/>
+            <f name="docID" value="694"/>
+            <f name="parag" value="1"/>
+        </fs>
+    </a>
+    <edge xml:id="e6" from="fn-n1" to="fn-n5"/>
+    <edge xml:id="e5" from="fn-n1" to="fn-n3"/>
+    <node xml:id="fn-n7"/>
+    <a label="NamedEntity" ref="fn-n7" as="FrameNet">
+        <fs>
+            <f name="NER" value="location"/>
+        </fs>
+    </a>
+    <edge xml:id="e4" from="fn-n7" to="fn-n4"/>
+    <edge xml:id="e3" from="fn-n1" to="fn-n7"/>
+    <node xml:id="fn-n6"/>
+    <a label="NamedEntity" ref="fn-n6" as="FrameNet">
+        <fs>
+            <f name="NER" value="organization"/>
+        </fs>
+    </a>
+    <edge xml:id="e2" from="fn-n6" to="fn-n2"/>
+    <edge xml:id="e1" from="fn-n1" to="fn-n6"/>
+    <edge xml:id="e0" from="fn-n0" to="fn-n1"/>
+    <node xml:id="fn-n54"/>
+    <a label="sentence" ref="fn-n54" as="FrameNet">
+        <fs>
+            <f name="ID" value="1276572"/>
+            <f name="aPos" value="0"/>
+            <f name="corpID" value="204"/>
+            <f name="docID" value="694"/>
+            <f name="parag" value="2"/>
+        </fs>
+    </a>
+    <edge xml:id="e184" from="fn-n54" to="fn-n76"/>
+    <edge xml:id="e183" from="fn-n54" to="fn-n65"/>
+    <node xml:id="fn-n115"/>
+    <a label="annotationSet" ref="fn-n115" as="FrameNet">
+        <fs>
+            <f name="ID" value="2016961"/>
+            <f name="frameName" value="Temporal_collocation"/>
+            <f name="frameRef" value="1895"/>
+            <f name="lexUnitRef" value="14550"/>
+            <f name="luName" value="recently.adv"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n117"/>
+    <a label="Target" ref="fn-n117" as="FrameNet"/>
+    <edge xml:id="e182" from="fn-n117" to="fn-n58"/>
+    <edge xml:id="e181" from="fn-n115" to="fn-n117"/>
+    <node xml:id="fn-n116"/>
+    <a label="FE" ref="fn-n116" as="FrameNet">
+        <fs>
+            <f name="FE" value="Landmark_event"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="VPed"/>
+        </fs>
+    </a>
+    <edge xml:id="e180" from="fn-n116" to="fn-n64"/>
+    <edge xml:id="e179" from="fn-n116" to="fn-n63"/>
+    <edge xml:id="e178" from="fn-n116" to="fn-n62"/>
+    <edge xml:id="e177" from="fn-n116" to="fn-n61"/>
+    <edge xml:id="e176" from="fn-n116" to="fn-n60"/>
+    <edge xml:id="e175" from="fn-n116" to="fn-n59"/>
+    <edge xml:id="e174" from="fn-n115" to="fn-n116"/>
+    <edge xml:id="e173" from="fn-n54" to="fn-n115"/>
+    <node xml:id="fn-n111"/>
+    <a label="annotationSet" ref="fn-n111" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013050"/>
+            <f name="frameName" value="Quantity"/>
+            <f name="frameRef" value="189"/>
+            <f name="lexUnitRef" value="3329"/>
+            <f name="luName" value="millions.n"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n114"/>
+    <a label="Target" ref="fn-n114" as="FrameNet"/>
+    <edge xml:id="e172" from="fn-n114" to="fn-n72"/>
+    <edge xml:id="e171" from="fn-n111" to="fn-n114"/>
+    <node xml:id="fn-n113"/>
+    <a label="FE" ref="fn-n113" as="FrameNet">
+        <fs>
+            <f name="FE" value="Individuals"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="e170" from="fn-n113" to="fn-n74"/>
+    <edge xml:id="e169" from="fn-n113" to="fn-n73"/>
+    <edge xml:id="e168" from="fn-n111" to="fn-n113"/>
+    <node xml:id="fn-n112"/>
+    <a label="FE" ref="fn-n112" as="FrameNet">
+        <fs>
+            <f name="FE" value="Quantity"/>
+            <f name="rank" value="1"/>
+        </fs>
+    </a>
+    <edge xml:id="e167" from="fn-n112" to="fn-n72"/>
+    <edge xml:id="e166" from="fn-n111" to="fn-n112"/>
+    <edge xml:id="e165" from="fn-n54" to="fn-n111"/>
+    <node xml:id="fn-n107"/>
+    <a label="annotationSet" ref="fn-n107" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013049"/>
+            <f name="frameName" value="Cause_harm"/>
+            <f name="frameRef" value="112"/>
+            <f name="lexUnitRef" value="2311"/>
+            <f name="luName" value="hurt.v"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n110"/>
+    <a label="Target" ref="fn-n110" as="FrameNet"/>
+    <edge xml:id="e164" from="fn-n110" to="fn-n71"/>
+    <edge xml:id="e163" from="fn-n107" to="fn-n110"/>
+    <node xml:id="fn-n109"/>
+    <a label="FE" ref="fn-n109" as="FrameNet">
+        <fs>
+            <f name="FE" value="Cause"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e162" from="fn-n109" to="fn-n69"/>
+    <edge xml:id="e161" from="fn-n109" to="fn-n68"/>
+    <edge xml:id="e160" from="fn-n109" to="fn-n67"/>
+    <edge xml:id="e159" from="fn-n107" to="fn-n109"/>
+    <node xml:id="fn-n108"/>
+    <a label="FE" ref="fn-n108" as="FrameNet">
+        <fs>
+            <f name="FE" value="Victim"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Obj"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e158" from="fn-n108" to="fn-n75"/>
+    <edge xml:id="e157" from="fn-n108" to="fn-n74"/>
+    <edge xml:id="e156" from="fn-n108" to="fn-n73"/>
+    <edge xml:id="e155" from="fn-n108" to="fn-n72"/>
+    <edge xml:id="e154" from="fn-n107" to="fn-n108"/>
+    <edge xml:id="e153" from="fn-n54" to="fn-n107"/>
+    <node xml:id="fn-n99"/>
+    <a label="annotationSet" ref="fn-n99" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013048"/>
+            <f name="frameName" value="Revenge"/>
+            <f name="frameRef" value="347"/>
+            <f name="lexUnitRef" value="10676"/>
+            <f name="luName" value="sanction.n"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n106"/>
+    <a label="Target" ref="fn-n106" as="FrameNet"/>
+    <edge xml:id="e152" from="fn-n106" to="fn-n69"/>
+    <edge xml:id="e151" from="fn-n99" to="fn-n106"/>
+    <node xml:id="fn-n105"/>
+    <a label="FE" ref="fn-n105" as="FrameNet">
+        <fs>
+            <f name="FE" value="Injury"/>
+            <f name="rank" value="1"/>
+            <f name="itype" value="INI"/>
+        </fs>
+    </a>
+    <edge xml:id="e150" from="fn-n99" to="fn-n105"/>
+    <node xml:id="fn-n104"/>
+    <a label="FE" ref="fn-n104" as="FrameNet">
+        <fs>
+            <f name="FE" value="Punishment"/>
+            <f name="rank" value="1"/>
+        </fs>
+    </a>
+    <edge xml:id="e149" from="fn-n104" to="fn-n69"/>
+    <edge xml:id="e148" from="fn-n99" to="fn-n104"/>
+    <node xml:id="fn-n103"/>
+    <a label="FE" ref="fn-n103" as="FrameNet">
+        <fs>
+            <f name="FE" value="Offender"/>
+            <f name="rank" value="1"/>
+            <f name="itype" value="DNI"/>
+        </fs>
+    </a>
+    <edge xml:id="e147" from="fn-n99" to="fn-n103"/>
+    <node xml:id="fn-n102"/>
+    <a label="FE" ref="fn-n102" as="FrameNet">
+        <fs>
+            <f name="FE" value="Injured_Party"/>
+            <f name="rank" value="1"/>
+            <f name="itype" value="INI"/>
+        </fs>
+    </a>
+    <edge xml:id="e146" from="fn-n99" to="fn-n102"/>
+    <node xml:id="fn-n101"/>
+    <a label="FE" ref="fn-n101" as="FrameNet">
+        <fs>
+            <f name="FE" value="Manner"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="A"/>
+        </fs>
+    </a>
+    <edge xml:id="e145" from="fn-n101" to="fn-n68"/>
+    <edge xml:id="e144" from="fn-n99" to="fn-n101"/>
+    <node xml:id="fn-n100"/>
+    <a label="FE" ref="fn-n100" as="FrameNet">
+        <fs>
+            <f name="FE" value="Avenger"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="N"/>
+        </fs>
+    </a>
+    <edge xml:id="e143" from="fn-n100" to="fn-n67"/>
+    <edge xml:id="e142" from="fn-n99" to="fn-n100"/>
+    <edge xml:id="e141" from="fn-n54" to="fn-n99"/>
+    <node xml:id="fn-n95"/>
+    <a label="annotationSet" ref="fn-n95" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013047"/>
+            <f name="frameName" value="Economy"/>
+            <f name="frameRef" value="1572"/>
+            <f name="lexUnitRef" value="12490"/>
+            <f name="luName" value="economic.a"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n98"/>
+    <a label="Target" ref="fn-n98" as="FrameNet"/>
+    <edge xml:id="e140" from="fn-n98" to="fn-n68"/>
+    <edge xml:id="e139" from="fn-n95" to="fn-n98"/>
+    <node xml:id="fn-n97"/>
+    <a label="FE" ref="fn-n97" as="FrameNet">
+        <fs>
+            <f name="FE" value="Political_region"/>
+            <f name="rank" value="1"/>
+            <f name="itype" value="INI"/>
+        </fs>
+    </a>
+    <edge xml:id="e138" from="fn-n95" to="fn-n97"/>
+    <node xml:id="fn-n96"/>
+    <a label="FE" ref="fn-n96" as="FrameNet">
+        <fs>
+            <f name="FE" value="Economy"/>
+            <f name="rank" value="1"/>
+        </fs>
+    </a>
+    <edge xml:id="e137" from="fn-n96" to="fn-n68"/>
+    <edge xml:id="e136" from="fn-n95" to="fn-n96"/>
+    <edge xml:id="e135" from="fn-n54" to="fn-n95"/>
+    <node xml:id="fn-n91"/>
+    <a label="annotationSet" ref="fn-n91" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013046"/>
+            <f name="frameName" value="Statement"/>
+            <f name="frameRef" value="43"/>
+            <f name="lexUnitRef" value="751"/>
+            <f name="luName" value="say.v"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n94"/>
+    <a label="Target" ref="fn-n94" as="FrameNet"/>
+    <edge xml:id="e134" from="fn-n94" to="fn-n66"/>
+    <edge xml:id="e133" from="fn-n91" to="fn-n94"/>
+    <node xml:id="fn-n93"/>
+    <a label="FE" ref="fn-n93" as="FrameNet">
+        <fs>
+            <f name="FE" value="Message"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="Sfin"/>
+        </fs>
+    </a>
+    <edge xml:id="e132" from="fn-n93" to="fn-n75"/>
+    <edge xml:id="e131" from="fn-n93" to="fn-n74"/>
+    <edge xml:id="e130" from="fn-n93" to="fn-n73"/>
+    <edge xml:id="e129" from="fn-n93" to="fn-n72"/>
+    <edge xml:id="e128" from="fn-n93" to="fn-n71"/>
+    <edge xml:id="e127" from="fn-n93" to="fn-n70"/>
+    <edge xml:id="e126" from="fn-n93" to="fn-n69"/>
+    <edge xml:id="e125" from="fn-n93" to="fn-n68"/>
+    <edge xml:id="e124" from="fn-n93" to="fn-n67"/>
+    <edge xml:id="e123" from="fn-n91" to="fn-n93"/>
+    <node xml:id="fn-n92"/>
+    <a label="FE" ref="fn-n92" as="FrameNet">
+        <fs>
+            <f name="FE" value="Speaker"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e122" from="fn-n92" to="fn-n64"/>
+    <edge xml:id="e121" from="fn-n92" to="fn-n63"/>
+    <edge xml:id="e120" from="fn-n92" to="fn-n62"/>
+    <edge xml:id="e119" from="fn-n92" to="fn-n61"/>
+    <edge xml:id="e118" from="fn-n92" to="fn-n60"/>
+    <edge xml:id="e117" from="fn-n92" to="fn-n59"/>
+    <edge xml:id="e116" from="fn-n92" to="fn-n58"/>
+    <edge xml:id="e115" from="fn-n92" to="fn-n57"/>
+    <edge xml:id="e114" from="fn-n92" to="fn-n56"/>
+    <edge xml:id="e113" from="fn-n92" to="fn-n55"/>
+    <edge xml:id="e112" from="fn-n91" to="fn-n92"/>
+    <edge xml:id="e111" from="fn-n54" to="fn-n91"/>
+    <node xml:id="fn-n80"/>
+    <a label="annotationSet" ref="fn-n80" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013042"/>
+            <f name="frameName" value="Arriving"/>
+            <f name="frameRef" value="54"/>
+            <f name="lexUnitRef" value="945"/>
+            <f name="luName" value="return.v"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n85"/>
+    <a label="Target" ref="fn-n85" as="FrameNet"/>
+    <edge xml:id="e100" from="fn-n85" to="fn-n59"/>
+    <edge xml:id="e99" from="fn-n80" to="fn-n85"/>
+    <node xml:id="fn-n84"/>
+    <a label="FE" ref="fn-n84" as="FrameNet">
+        <fs>
+            <f name="FE" value="Source"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="e98" from="fn-n84" to="fn-n64"/>
+    <edge xml:id="e97" from="fn-n84" to="fn-n63"/>
+    <edge xml:id="e96" from="fn-n84" to="fn-n62"/>
+    <edge xml:id="e95" from="fn-n84" to="fn-n61"/>
+    <edge xml:id="e94" from="fn-n84" to="fn-n60"/>
+    <edge xml:id="e93" from="fn-n80" to="fn-n84"/>
+    <node xml:id="fn-n83"/>
+    <a label="FE" ref="fn-n83" as="FrameNet">
+        <fs>
+            <f name="FE" value="Theme"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e92" from="fn-n83" to="fn-n55"/>
+    <edge xml:id="e91" from="fn-n80" to="fn-n83"/>
+    <node xml:id="fn-n82"/>
+    <a label="FE" ref="fn-n82" as="FrameNet">
+        <fs>
+            <f name="FE" value="Time"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="AVP"/>
+        </fs>
+    </a>
+    <edge xml:id="e90" from="fn-n82" to="fn-n58"/>
+    <edge xml:id="e89" from="fn-n80" to="fn-n82"/>
+    <node xml:id="fn-n81"/>
+    <a label="FE" ref="fn-n81" as="FrameNet">
+        <fs>
+            <f name="FE" value="Theme"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e88" from="fn-n81" to="fn-n57"/>
+    <edge xml:id="e87" from="fn-n80" to="fn-n81"/>
+    <edge xml:id="e86" from="fn-n54" to="fn-n80"/>
+    <node xml:id="fn-n79"/>
+    <a label="NamedEntity" ref="fn-n79" as="FrameNet">
+        <fs>
+            <f name="NER" value="organization"/>
+        </fs>
+    </a>
+    <edge xml:id="e85" from="fn-n79" to="fn-n67"/>
+    <edge xml:id="e84" from="fn-n54" to="fn-n79"/>
+    <node xml:id="fn-n78"/>
+    <a label="NamedEntity" ref="fn-n78" as="FrameNet">
+        <fs>
+            <f name="NER" value="location"/>
+        </fs>
+    </a>
+    <edge xml:id="e83" from="fn-n78" to="fn-n64"/>
+    <edge xml:id="e82" from="fn-n54" to="fn-n78"/>
+    <node xml:id="fn-n77"/>
+    <a label="NamedEntity" ref="fn-n77" as="FrameNet">
+        <fs>
+            <f name="NER" value="person"/>
+        </fs>
+    </a>
+    <edge xml:id="e81" from="fn-n77" to="fn-n55"/>
+    <edge xml:id="e80" from="fn-n54" to="fn-n77"/>
+    <node xml:id="fn-n86"/>
+    <a label="annotationSet" ref="fn-n86" as="FrameNet">
+        <fs>
+            <f name="ID" value="2013043"/>
+            <f name="frameName" value="Travel"/>
+            <f name="frameRef" value="343"/>
+            <f name="lexUnitRef" value="6064"/>
+            <f name="luName" value="trip.n"/>
+            <f name="status" value="MANUAL"/>
+        </fs>
+    </a>
+    <node xml:id="fn-n90"/>
+    <a label="Target" ref="fn-n90" as="FrameNet"/>
+    <edge xml:id="e110" from="fn-n90" to="fn-n62"/>
+    <edge xml:id="e109" from="fn-n86" to="fn-n90"/>
+    <node xml:id="fn-n89"/>
+    <a label="FE" ref="fn-n89" as="FrameNet">
+        <fs>
+            <f name="FE" value="Traveler"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e108" from="fn-n89" to="fn-n55"/>
+    <edge xml:id="e107" from="fn-n86" to="fn-n89"/>
+    <node xml:id="fn-n88"/>
+    <a label="FE" ref="fn-n88" as="FrameNet">
+        <fs>
+            <f name="FE" value="Traveler"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Ext"/>
+            <f name="PT" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="e106" from="fn-n88" to="fn-n57"/>
+    <edge xml:id="e105" from="fn-n86" to="fn-n88"/>
+    <node xml:id="fn-n87"/>
+    <a label="FE" ref="fn-n87" as="FrameNet">
+        <fs>
+            <f name="FE" value="Goal"/>
+            <f name="rank" value="1"/>
+            <f name="GF" value="Dep"/>
+            <f name="PT" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="e104" from="fn-n87" to="fn-n64"/>
+    <edge xml:id="e103" from="fn-n87" to="fn-n63"/>
+    <edge xml:id="e102" from="fn-n86" to="fn-n87"/>
+    <edge xml:id="e101" from="fn-n54" to="fn-n86"/>
+    <edge xml:id="e79" from="fn-n0" to="fn-n54"/>
+</graph>

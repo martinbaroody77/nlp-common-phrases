@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="body" occurs="1"/>
+            <tagUsage gi="turn" occurs="4"/>
+            <tagUsage gi="u" occurs="17"/>
+            <tagUsage gi="cesDoc" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="r0" anchors="0 2023"/>
+    <node xml:id="n0">
+        <link targets="r0"/>
+    </node>
+    <a label="cesDoc" ref="n0" as="xces">
+        <fs>
+            <f name="version" value="1.0.4"/>
+            <f name="xmlns" value="http://www.xces.org/schema/2003"/>
+            <f name="xmlns:xlink" value="http://www.w3.org/1999/xlink"/>
+        </fs>
+    </a>
+    <region xml:id="r1" anchors="8 2022"/>
+    <node xml:id="n1">
+        <link targets="r1"/>
+    </node>
+    <a label="body" ref="n1" as="xces"/>
+    <region xml:id="r2" anchors="15 1662"/>
+    <node xml:id="n2">
+        <link targets="r2"/>
+    </node>
+    <a label="turn" ref="n2" as="xces">
+        <fs>
+            <f name="who" value="BR"/>
+            <f name="id" value="t1"/>
+        </fs>
+    </a>
+    <region xml:id="r3" anchors="25 137"/>
+    <node xml:id="n3">
+        <link targets="r3"/>
+    </node>
+    <a label="u" ref="n3" as="xces">
+        <fs>
+            <f name="id" value="t1u1"/>
+        </fs>
+    </a>
+    <region xml:id="r4" anchors="147 177"/>
+    <node xml:id="n4">
+        <link targets="r4"/>
+    </node>
+    <a label="u" ref="n4" as="xces">
+        <fs>
+            <f name="id" value="t1u2"/>
+        </fs>
+    </a>
+    <region xml:id="r5" anchors="187 255"/>
+    <node xml:id="n5">
+        <link targets="r5"/>
+    </node>
+    <a label="u" ref="n5" as="xces">
+        <fs>
+            <f name="id" value="t1u3"/>
+        </fs>
+    </a>
+    <region xml:id="r6" anchors="265 311"/>
+    <node xml:id="n6">
+        <link targets="r6"/>
+    </node>
+    <a label="u" ref="n6" as="xces">
+        <fs>
+            <f name="id" value="t1u4"/>
+        </fs>
+    </a>
+    <region xml:id="r7" anchors="321 462"/>
+    <node xml:id="n7">
+        <link targets="r7"/>
+    </node>
+    <a label="u" ref="n7" as="xces">
+        <fs>
+            <f name="id" value="t1u5"/>
+        </fs>
+    </a>
+    <region xml:id="r8" anchors="472 546"/>
+    <node xml:id="n8">
+        <link targets="r8"/>
+    </node>
+    <a label="u" ref="n8" as="xces">
+        <fs>
+            <f name="id" value="t1u6"/>
+        </fs>
+    </a>
+    <region xml:id="r9" anchors="556 646"/>
+    <node xml:id="n9">
+        <link targets="r9"/>
+    </node>
+    <a label="u" ref="n9" as="xces">
+        <fs>
+            <f name="id" value="t1u7"/>
+        </fs>
+    </a>
+    <region xml:id="r10" anchors="656 733"/>
+    <node xml:id="n10">
+        <link targets="r10"/>
+    </node>
+    <a label="u" ref="n10" as="xces">
+        <fs>
+            <f name="id" value="t1u8"/>
+        </fs>
+    </a>
+    <region xml:id="r11" anchors="743 806"/>
+    <node xml:id="n11">
+        <link targets="r11"/>
+    </node>
+    <a label="u" ref="n11" as="xces">
+        <fs>
+            <f name="id" value="t1u9"/>
+        </fs>
+    </a>
+    <region xml:id="r12" anchors="816 1380"/>
+    <node xml:id="n12">
+        <link targets="r12"/>
+    </node>
+    <a label="u" ref="n12" as="xces">
+        <fs>
+            <f name="id" value="t1u10"/>
+        </fs>
+    </a>
+    <region xml:id="r13" anchors="1390 1486"/>
+    <node xml:id="n13">
+        <link targets="r13"/>
+    </node>
+    <a label="u" ref="n13" as="xces">
+        <fs>
+            <f name="id" value="t1u11"/>
+        </fs>
+    </a>
+    <region xml:id="r14" anchors="1496 1655"/>
+    <node xml:id="n14">
+        <link targets="r14"/>
+    </node>
+    <a label="u" ref="n14" as="xces">
+        <fs>
+            <f name="id" value="t1u12"/>
+        </fs>
+    </a>
+    <region xml:id="r15" anchors="1669 1727"/>
+    <node xml:id="n15">
+        <link targets="r15"/>
+    </node>
+    <a label="turn" ref="n15" as="xces">
+        <fs>
+            <f name="who" value="BB"/>
+            <f name="id" value="t2"/>
+        </fs>
+    </a>
+    <region xml:id="r16" anchors="1679 1720"/>
+    <node xml:id="n16">
+        <link targets="r16"/>
+    </node>
+    <a label="u" ref="n16" as="xces">
+        <fs>
+            <f name="id" value="t2u1"/>
+        </fs>
+    </a>
+    <region xml:id="r17" anchors="1734 1983"/>
+    <node xml:id="n17">
+        <link targets="r17"/>
+    </node>
+    <a label="turn" ref="n17" as="xces">
+        <fs>
+            <f name="who" value="BR"/>
+            <f name="id" value="t3"/>
+        </fs>
+    </a>
+    <region xml:id="r18" anchors="1744 1790"/>
+    <node xml:id="n18">
+        <link targets="r18"/>
+    </node>
+    <a label="u" ref="n18" as="xces">
+        <fs>
+            <f name="id" value="t3u1"/>
+        </fs>
+    </a>
+    <region xml:id="r19" anchors="1800 1840"/>
+    <node xml:id="n19">
+        <link targets="r19"/>
+    </node>
+    <a label="u" ref="n19" as="xces">
+        <fs>
+            <f name="id" value="t3u2"/>
+        </fs>
+    </a>
+    <region xml:id="r20" anchors="1850 1976"/>
+    <node xml:id="n20">
+        <link targets="r20"/>
+    </node>
+    <a label="u" ref="n20" as="xces">
+        <fs>
+            <f name="id" value="t3u3"/>
+        </fs>
+    </a>
+    <region xml:id="r21" anchors="1990 2018"/>
+    <node xml:id="n21">
+        <link targets="r21"/>
+    </node>
+    <a label="turn" ref="n21" as="xces">
+        <fs>
+            <f name="who" value="BB"/>
+            <f name="id" value="t4"/>
+        </fs>
+    </a>
+    <region xml:id="r22" anchors="2000 2011"/>
+    <node xml:id="n22">
+        <link targets="r22"/>
+    </node>
+    <a label="u" ref="n22" as="xces">
+        <fs>
+            <f name="id" value="t4u1"/>
+        </fs>
+    </a>
+</graph>

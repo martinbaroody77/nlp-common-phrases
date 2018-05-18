@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="person" occurs="3"/>
+            <tagUsage gi="location" occurs="4"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="ne-n0"/>
+    <a label="person" ref="ne-n0" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n1"/>
+    <a label="person" ref="ne-n1" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n2"/>
+    <a label="location" ref="ne-n2" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n3"/>
+    <a label="person" ref="ne-n3" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n4"/>
+    <a label="location" ref="ne-n4" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n5"/>
+    <a label="location" ref="ne-n5" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n6"/>
+    <a label="location" ref="ne-n6" as="xces">
+        <fs>
+            <f name="type" value="us_region"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk8" from="ne-n6" to="penn-n63"/>
+    <edge xml:id="lnk7" from="ne-n6" to="penn-n62"/>
+    <edge xml:id="lnk6" from="ne-n5" to="penn-n60"/>
+    <edge xml:id="lnk5" from="ne-n4" to="penn-n55"/>
+    <edge xml:id="lnk4" from="ne-n3" to="penn-n32"/>
+    <edge xml:id="lnk3" from="ne-n3" to="penn-n31"/>
+    <edge xml:id="lnk2" from="ne-n2" to="penn-n29"/>
+    <edge xml:id="lnk1" from="ne-n1" to="penn-n21"/>
+    <edge xml:id="lnk0" from="ne-n0" to="penn-n10"/>
+</graph>

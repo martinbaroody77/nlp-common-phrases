@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="person" occurs="1"/>
+            <tagUsage gi="date" occurs="2"/>
+            <tagUsage gi="org" occurs="1"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="ne-n0"/>
+    <a label="date" ref="ne-n0" as="xces">
+        <fs>
+            <f name="kind" value="date"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n1"/>
+    <a label="date" ref="ne-n1" as="xces">
+        <fs>
+            <f name="kind" value="time"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n2"/>
+    <a label="org" ref="ne-n2" as="xces">
+        <fs>
+            <f name="type" value="religious"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n3"/>
+    <a label="person" ref="ne-n3" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk10" from="ne-n2" to="penn-n669"/>
+    <edge xml:id="lnk9" from="ne-n2" to="penn-n668"/>
+    <edge xml:id="lnk8" from="ne-n2" to="penn-n667"/>
+    <edge xml:id="lnk7" from="ne-n2" to="penn-n666"/>
+    <edge xml:id="lnk6" from="ne-n1" to="penn-n627"/>
+    <edge xml:id="lnk5" from="ne-n1" to="penn-n626"/>
+    <edge xml:id="lnk4" from="ne-n1" to="penn-n625"/>
+    <edge xml:id="lnk3" from="ne-n1" to="penn-n624"/>
+    <edge xml:id="lnk2" from="ne-n0" to="penn-n617"/>
+    <edge xml:id="lnk1" from="ne-n0" to="penn-n616"/>
+    <edge xml:id="lnk0" from="ne-n0" to="penn-n615"/>
+    <edge xml:id="lnk13" from="ne-n3" to="penn-n1315"/>
+    <edge xml:id="lnk12" from="ne-n2" to="penn-n671"/>
+    <edge xml:id="lnk11" from="ne-n2" to="penn-n670"/>
+</graph>

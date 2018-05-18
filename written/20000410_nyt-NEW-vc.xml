@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="vchunk" occurs="34"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="vc-n0"/>
+    <a label="vchunk" ref="vc-n0" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n0"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n1"/>
+    <a label="vchunk" ref="vc-n1" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="PrePer"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n1"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n10"/>
+    <a label="vchunk" ref="vc-n10" as="xces">
+        <fs>
+            <f name="type" value="NFVG"/>
+            <f name="tense" value="Inf"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n10"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n11"/>
+    <a label="vchunk" ref="vc-n11" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="PrePer"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n11"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n12"/>
+    <a label="vchunk" ref="vc-n12" as="xces">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="type" value="PART"/>
+            <f name="tense" value="Pre"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n13"/>
+    <a label="vchunk" ref="vc-n13" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="PrePer"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n12"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n14"/>
+    <a label="vchunk" ref="vc-n14" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n13"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n15"/>
+    <a label="vchunk" ref="vc-n15" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n14"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n16"/>
+    <a label="vchunk" ref="vc-n16" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="PrePer"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n15"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n17"/>
+    <a label="vchunk" ref="vc-n17" as="xces">
+        <fs>
+            <f name="type" value="NFVG"/>
+            <f name="tense" value="Inf"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n16"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n18"/>
+    <a label="vchunk" ref="vc-n18" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n17"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n19"/>
+    <a label="vchunk" ref="vc-n19" as="xces">
+        <fs>
+            <f name="type" value="PART"/>
+            <f name="tense" value="Pre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n18"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n2"/>
+    <a label="vchunk" ref="vc-n2" as="xces">
+        <fs>
+            <f name="type" value="NFVG"/>
+            <f name="tense" value="Inf"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n2"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n20"/>
+    <a label="vchunk" ref="vc-n20" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n19"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n21"/>
+    <a label="vchunk" ref="vc-n21" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n20"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n22"/>
+    <a label="vchunk" ref="vc-n22" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimFut"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n21"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n23"/>
+    <a label="vchunk" ref="vc-n23" as="xces">
+        <fs>
+            <f name="type" value="NFVG"/>
+            <f name="tense" value="Inf"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n22"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n24"/>
+    <a label="vchunk" ref="vc-n24" as="xces">
+        <fs>
+            <f name="type" value="PART"/>
+            <f name="tense" value="Pre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n23"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n25"/>
+    <a label="vchunk" ref="vc-n25" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n24"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n26"/>
+    <a label="vchunk" ref="vc-n26" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n25"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n27"/>
+    <a label="vchunk" ref="vc-n27" as="xces">
+        <fs>
+            <f name="type" value="NFVG"/>
+            <f name="tense" value="Inf"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n26"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n28"/>
+    <a label="vchunk" ref="vc-n28" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n27"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n29"/>
+    <a label="vchunk" ref="vc-n29" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimFut"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n28"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n3"/>
+    <a label="vchunk" ref="vc-n3" as="xces">
+        <fs>
+            <f name="type" value="NFVG"/>
+            <f name="tense" value="Inf"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n3"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n30"/>
+    <a label="vchunk" ref="vc-n30" as="xces">
+        <fs>
+            <f name="type" value="PART"/>
+            <f name="tense" value="Pre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n29"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n31"/>
+    <a label="vchunk" ref="vc-n31" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPre"/>
+            <f name="voice" value="passive"/>
+            <f name="neg" value="yes"/>
+            <f name="graf:id" value="vc-n30"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n32"/>
+    <a label="vchunk" ref="vc-n32" as="xces">
+        <fs>
+            <f name="type" value="SPECIAL"/>
+            <f name="tense" value="Pre"/>
+            <f name="voice" value="none"/>
+            <f name="graf:id" value="vc-n31"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n33"/>
+    <a label="vchunk" ref="vc-n33" as="xces">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPAs"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n4"/>
+    <a label="vchunk" ref="vc-n4" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="PrePer"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n4"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n5"/>
+    <a label="vchunk" ref="vc-n5" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n5"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n6"/>
+    <a label="vchunk" ref="vc-n6" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="PrePer"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n6"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n7"/>
+    <a label="vchunk" ref="vc-n7" as="xces">
+        <fs>
+            <f name="type" value="PART"/>
+            <f name="tense" value="Pre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n7"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n8"/>
+    <a label="vchunk" ref="vc-n8" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimFut"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n8"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n9"/>
+    <a label="vchunk" ref="vc-n9" as="xces">
+        <fs>
+            <f name="type" value="PART"/>
+            <f name="tense" value="Pre"/>
+            <f name="voice" value="active"/>
+            <f name="graf:id" value="vc-n9"/>
+            <f name="graf:set" value="xces"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk35" from="vc-n23" to="penn-n178"/>
+    <edge xml:id="lnk34" from="vc-n22" to="penn-n171"/>
+    <edge xml:id="lnk33" from="vc-n22" to="penn-n170"/>
+    <edge xml:id="lnk32" from="vc-n21" to="penn-n157"/>
+    <edge xml:id="lnk31" from="vc-n20" to="penn-n151"/>
+    <edge xml:id="lnk30" from="vc-n19" to="penn-n137"/>
+    <edge xml:id="lnk9" from="vc-n5" to="penn-n48"/>
+    <edge xml:id="lnk8" from="vc-n4" to="penn-n37"/>
+    <edge xml:id="lnk7" from="vc-n4" to="penn-n36"/>
+    <edge xml:id="lnk6" from="vc-n3" to="penn-n31"/>
+    <edge xml:id="lnk5" from="vc-n3" to="penn-n30"/>
+    <edge xml:id="lnk4" from="vc-n2" to="penn-n16"/>
+    <edge xml:id="lnk3" from="vc-n2" to="penn-n15"/>
+    <edge xml:id="lnk2" from="vc-n1" to="penn-n14"/>
+    <edge xml:id="lnk1" from="vc-n1" to="penn-n13"/>
+    <edge xml:id="lnk0" from="vc-n0" to="penn-n1"/>
+    <edge xml:id="lnk29" from="vc-n18" to="penn-n128"/>
+    <edge xml:id="lnk28" from="vc-n17" to="penn-n115"/>
+    <edge xml:id="lnk27" from="vc-n17" to="penn-n114"/>
+    <edge xml:id="lnk26" from="vc-n16" to="penn-n109"/>
+    <edge xml:id="lnk25" from="vc-n16" to="penn-n108"/>
+    <edge xml:id="lnk24" from="vc-n15" to="penn-n107"/>
+    <edge xml:id="lnk23" from="vc-n14" to="penn-n103"/>
+    <edge xml:id="lnk22" from="vc-n13" to="penn-n96"/>
+    <edge xml:id="lnk21" from="vc-n13" to="penn-n95"/>
+    <edge xml:id="lnk52" from="vc-n33" to="penn-n264"/>
+    <edge xml:id="lnk20" from="vc-n12" to="penn-n87"/>
+    <edge xml:id="lnk51" from="vc-n32" to="penn-n256"/>
+    <edge xml:id="lnk50" from="vc-n32" to="penn-n255"/>
+    <edge xml:id="lnk19" from="vc-n11" to="penn-n84"/>
+    <edge xml:id="lnk18" from="vc-n11" to="penn-n83"/>
+    <edge xml:id="lnk49" from="vc-n32" to="penn-n254"/>
+    <edge xml:id="lnk17" from="vc-n10" to="penn-n79"/>
+    <edge xml:id="lnk48" from="vc-n31" to="penn-n249"/>
+    <edge xml:id="lnk16" from="vc-n10" to="penn-n78"/>
+    <edge xml:id="lnk47" from="vc-n31" to="penn-n248"/>
+    <edge xml:id="lnk15" from="vc-n9" to="penn-n73"/>
+    <edge xml:id="lnk46" from="vc-n31" to="penn-n247"/>
+    <edge xml:id="lnk14" from="vc-n8" to="penn-n70"/>
+    <edge xml:id="lnk45" from="vc-n30" to="penn-n242"/>
+    <edge xml:id="lnk13" from="vc-n8" to="penn-n69"/>
+    <edge xml:id="lnk44" from="vc-n29" to="penn-n238"/>
+    <edge xml:id="lnk12" from="vc-n7" to="penn-n62"/>
+    <edge xml:id="lnk43" from="vc-n29" to="penn-n237"/>
+    <edge xml:id="lnk11" from="vc-n6" to="penn-n57"/>
+    <edge xml:id="lnk42" from="vc-n28" to="penn-n226"/>
+    <edge xml:id="lnk10" from="vc-n6" to="penn-n56"/>
+    <edge xml:id="lnk41" from="vc-n27" to="penn-n212"/>
+    <edge xml:id="lnk40" from="vc-n27" to="penn-n211"/>
+    <edge xml:id="lnk39" from="vc-n26" to="penn-n210"/>
+    <edge xml:id="lnk38" from="vc-n25" to="penn-n195"/>
+    <edge xml:id="lnk37" from="vc-n24" to="penn-n186"/>
+    <edge xml:id="lnk36" from="vc-n23" to="penn-n179"/>
+</graph>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Non-Committed Belief" occurs="6"/>
+            <tagUsage gi="Not Applicable" occurs="7"/>
+            <tagUsage gi="Committed Belief" occurs="27"/>
+            <tagUsage gi="Non-Committed Belief Future" occurs="9"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="cb-r0" anchors="26 33"/>
+    <node xml:id="cb-n0">
+        <link targets="cb-r0"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n0" as="xces"/>
+    <region xml:id="cb-r1" anchors="96 103"/>
+    <node xml:id="cb-n1">
+        <link targets="cb-r1"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n1" as="xces"/>
+    <region xml:id="cb-r2" anchors="157 168"/>
+    <node xml:id="cb-n2">
+        <link targets="cb-r2"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n2" as="xces"/>
+    <region xml:id="cb-r3" anchors="169 176"/>
+    <node xml:id="cb-n3">
+        <link targets="cb-r3"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n3" as="xces"/>
+    <region xml:id="cb-r4" anchors="186 192"/>
+    <node xml:id="cb-n4">
+        <link targets="cb-r4"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n4" as="xces"/>
+    <region xml:id="cb-r5" anchors="232 252"/>
+    <node xml:id="cb-n5">
+        <link targets="cb-r5"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n5" as="xces"/>
+    <region xml:id="cb-r6" anchors="317 325"/>
+    <node xml:id="cb-n6">
+        <link targets="cb-r6"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n6" as="xces"/>
+    <region xml:id="cb-r7" anchors="375 384"/>
+    <node xml:id="cb-n7">
+        <link targets="cb-r7"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n7" as="xces"/>
+    <region xml:id="cb-r8" anchors="385 394"/>
+    <node xml:id="cb-n8">
+        <link targets="cb-r8"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n8" as="xces"/>
+    <region xml:id="cb-r9" anchors="427 431"/>
+    <node xml:id="cb-n9">
+        <link targets="cb-r9"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n9" as="xces"/>
+    <region xml:id="cb-r10" anchors="551 558"/>
+    <node xml:id="cb-n10">
+        <link targets="cb-r10"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n10" as="xces"/>
+    <region xml:id="cb-r11" anchors="585 590"/>
+    <node xml:id="cb-n11">
+        <link targets="cb-r11"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n11" as="xces"/>
+    <region xml:id="cb-r12" anchors="591 603"/>
+    <node xml:id="cb-n12">
+        <link targets="cb-r12"/>
+    </node>
+    <a label="Not Applicable" ref="cb-n12" as="xces"/>
+    <region xml:id="cb-r13" anchors="612 629"/>
+    <node xml:id="cb-n13">
+        <link targets="cb-r13"/>
+    </node>
+    <a label="Non-Committed Belief" ref="cb-n13" as="xces"/>
+    <region xml:id="cb-r14" anchors="639 655"/>
+    <node xml:id="cb-n14">
+        <link targets="cb-r14"/>
+    </node>
+    <a label="Non-Committed Belief" ref="cb-n14" as="xces"/>
+    <region xml:id="cb-r15" anchors="697 701"/>
+    <node xml:id="cb-n15">
+        <link targets="cb-r15"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n15" as="xces"/>
+    <region xml:id="cb-r16" anchors="705 711"/>
+    <node xml:id="cb-n16">
+        <link targets="cb-r16"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n16" as="xces"/>
+    <region xml:id="cb-r17" anchors="712 726"/>
+    <node xml:id="cb-n17">
+        <link targets="cb-r17"/>
+    </node>
+    <a label="Not Applicable" ref="cb-n17" as="xces"/>
+    <region xml:id="cb-r18" anchors="793 796"/>
+    <node xml:id="cb-n18">
+        <link targets="cb-r18"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n18" as="xces"/>
+    <region xml:id="cb-r19" anchors="797 813"/>
+    <node xml:id="cb-n19">
+        <link targets="cb-r19"/>
+    </node>
+    <a label="Not Applicable" ref="cb-n19" as="xces"/>
+    <region xml:id="cb-r20" anchors="819 839"/>
+    <node xml:id="cb-n20">
+        <link targets="cb-r20"/>
+    </node>
+    <a label="Non-Committed Belief" ref="cb-n20" as="xces"/>
+    <region xml:id="cb-r21" anchors="847 851"/>
+    <node xml:id="cb-n21">
+        <link targets="cb-r21"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n21" as="xces"/>
+    <region xml:id="cb-r23" anchors="861 864"/>
+    <node xml:id="cb-n23">
+        <link targets="cb-r23"/>
+    </node>
+    <a label="Not Applicable" ref="cb-n23" as="xces"/>
+    <region xml:id="cb-r22" anchors="861 864"/>
+    <node xml:id="cb-n22">
+        <link targets="cb-r22"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n22" as="xces"/>
+    <region xml:id="cb-r24" anchors="894 901"/>
+    <node xml:id="cb-n24">
+        <link targets="cb-r24"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n24" as="xces"/>
+    <region xml:id="cb-r25" anchors="927 935"/>
+    <node xml:id="cb-n25">
+        <link targets="cb-r25"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n25" as="xces"/>
+    <region xml:id="cb-r26" anchors="958 983"/>
+    <node xml:id="cb-n26">
+        <link targets="cb-r26"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n26" as="xces"/>
+    <region xml:id="cb-r27" anchors="1005 1017"/>
+    <node xml:id="cb-n27">
+        <link targets="cb-r27"/>
+    </node>
+    <a label="Not Applicable" ref="cb-n27" as="xces"/>
+    <region xml:id="cb-r28" anchors="1049 1053"/>
+    <node xml:id="cb-n28">
+        <link targets="cb-r28"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n28" as="xces"/>
+    <region xml:id="cb-r29" anchors="1058 1064"/>
+    <node xml:id="cb-n29">
+        <link targets="cb-r29"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n29" as="xces"/>
+    <region xml:id="cb-r30" anchors="1127 1133"/>
+    <node xml:id="cb-n30">
+        <link targets="cb-r30"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n30" as="xces"/>
+    <region xml:id="cb-r31" anchors="1134 1147"/>
+    <node xml:id="cb-n31">
+        <link targets="cb-r31"/>
+    </node>
+    <a label="Not Applicable" ref="cb-n31" as="xces"/>
+    <region xml:id="cb-r32" anchors="1185 1190"/>
+    <node xml:id="cb-n32">
+        <link targets="cb-r32"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n32" as="xces"/>
+    <region xml:id="cb-r33" anchors="1191 1204"/>
+    <node xml:id="cb-n33">
+        <link targets="cb-r33"/>
+    </node>
+    <a label="Not Applicable" ref="cb-n33" as="xces"/>
+    <region xml:id="cb-r34" anchors="1221 1224"/>
+    <node xml:id="cb-n34">
+        <link targets="cb-r34"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n34" as="xces"/>
+    <region xml:id="cb-r35" anchors="1228 1238"/>
+    <node xml:id="cb-n35">
+        <link targets="cb-r35"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n35" as="xces"/>
+    <region xml:id="cb-r36" anchors="1265 1271"/>
+    <node xml:id="cb-n36">
+        <link targets="cb-r36"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n36" as="xces"/>
+    <region xml:id="cb-r37" anchors="1276 1283"/>
+    <node xml:id="cb-n37">
+        <link targets="cb-r37"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n37" as="xces"/>
+    <region xml:id="cb-r38" anchors="1292 1304"/>
+    <node xml:id="cb-n38">
+        <link targets="cb-r38"/>
+    </node>
+    <a label="Non-Committed Belief" ref="cb-n38" as="xces"/>
+    <region xml:id="cb-r39" anchors="1306 1326"/>
+    <node xml:id="cb-n39">
+        <link targets="cb-r39"/>
+    </node>
+    <a label="Non-Committed Belief" ref="cb-n39" as="xces"/>
+    <region xml:id="cb-r40" anchors="1331 1346"/>
+    <node xml:id="cb-n40">
+        <link targets="cb-r40"/>
+    </node>
+    <a label="Non-Committed Belief" ref="cb-n40" as="xces"/>
+    <region xml:id="cb-r41" anchors="1355 1364"/>
+    <node xml:id="cb-n41">
+        <link targets="cb-r41"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n41" as="xces"/>
+    <region xml:id="cb-r42" anchors="1368 1381"/>
+    <node xml:id="cb-n42">
+        <link targets="cb-r42"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n42" as="xces"/>
+    <region xml:id="cb-r43" anchors="1404 1411"/>
+    <node xml:id="cb-n43">
+        <link targets="cb-r43"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n43" as="xces"/>
+    <region xml:id="cb-r44" anchors="1430 1440"/>
+    <node xml:id="cb-n44">
+        <link targets="cb-r44"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n44" as="xces"/>
+    <region xml:id="cb-r45" anchors="1481 1497"/>
+    <node xml:id="cb-n45">
+        <link targets="cb-r45"/>
+    </node>
+    <a label="Non-Committed Belief Future" ref="cb-n45" as="xces"/>
+    <region xml:id="cb-r46" anchors="1513 1517"/>
+    <node xml:id="cb-n46">
+        <link targets="cb-r46"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n46" as="xces"/>
+    <region xml:id="cb-r47" anchors="1618 1625"/>
+    <node xml:id="cb-n47">
+        <link targets="cb-r47"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n47" as="xces"/>
+    <region xml:id="cb-r48" anchors="1669 1673"/>
+    <node xml:id="cb-n48">
+        <link targets="cb-r48"/>
+    </node>
+    <a label="Committed Belief" ref="cb-n48" as="xces"/>
+</graph>

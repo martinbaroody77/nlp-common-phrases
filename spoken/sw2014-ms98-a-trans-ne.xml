@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="person" occurs="2"/>
+            <tagUsage gi="location" occurs="3"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="ne-n0"/>
+    <a label="location" ref="ne-n0" as="xces">
+        <fs>
+            <f name="type" value="province"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n1"/>
+    <a label="location" ref="ne-n1" as="xces">
+        <fs>
+            <f name="type" value="province"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n2"/>
+    <a label="location" ref="ne-n2" as="xces">
+        <fs>
+            <f name="type" value="province"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n3"/>
+    <a label="person" ref="ne-n3" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n4"/>
+    <a label="person" ref="ne-n4" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk4" from="ne-n4" to="penn-n715"/>
+    <edge xml:id="lnk3" from="ne-n3" to="penn-n710"/>
+    <edge xml:id="lnk2" from="ne-n2" to="penn-n268"/>
+    <edge xml:id="lnk1" from="ne-n1" to="penn-n248"/>
+    <edge xml:id="lnk0" from="ne-n0" to="penn-n206"/>
+</graph>

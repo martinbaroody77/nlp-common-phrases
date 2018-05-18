@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="person" occurs="20"/>
+            <tagUsage gi="location" occurs="11"/>
+            <tagUsage gi="org" occurs="5"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="n0"/>
+    <a label="person" ref="n0" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="n1"/>
+    <a label="location" ref="n1" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n10"/>
+    <a label="person" ref="n10" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n11"/>
+    <a label="person" ref="n11" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n12"/>
+    <a label="person" ref="n12" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n13"/>
+    <a label="person" ref="n13" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n14"/>
+    <a label="person" ref="n14" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="n15"/>
+    <a label="person" ref="n15" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n16"/>
+    <a label="person" ref="n16" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n17"/>
+    <a label="person" ref="n17" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="n18"/>
+    <a label="person" ref="n18" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="n19"/>
+    <a label="person" ref="n19" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n2"/>
+    <a label="location" ref="n2" as="xces">
+        <fs>
+            <f name="type" value="province"/>
+        </fs>
+    </a>
+    <node xml:id="n20"/>
+    <a label="person" ref="n20" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n21"/>
+    <a label="person" ref="n21" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n22"/>
+    <a label="person" ref="n22" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n23"/>
+    <a label="location" ref="n23" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n24"/>
+    <a label="person" ref="n24" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n25"/>
+    <a label="person" ref="n25" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n26"/>
+    <a label="person" ref="n26" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n27"/>
+    <a label="org" ref="n27" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <node xml:id="n28"/>
+    <a label="org" ref="n28" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <node xml:id="n29"/>
+    <a label="person" ref="n29" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n3"/>
+    <a label="location" ref="n3" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n30"/>
+    <a label="org" ref="n30" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <node xml:id="n31"/>
+    <a label="org" ref="n31" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <node xml:id="n32"/>
+    <a label="org" ref="n32" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <node xml:id="n33"/>
+    <a label="location" ref="n33" as="xces">
+        <fs>
+            <f name="type" value="facility"/>
+        </fs>
+    </a>
+    <node xml:id="n34"/>
+    <a label="location" ref="n34" as="xces">
+        <fs>
+            <f name="type" value="facility"/>
+        </fs>
+    </a>
+    <node xml:id="n35"/>
+    <a label="location" ref="n35" as="xces">
+        <fs>
+            <f name="type" value="street"/>
+        </fs>
+    </a>
+    <node xml:id="n4"/>
+    <a label="location" ref="n4" as="xces">
+        <fs>
+            <f name="type" value="facility"/>
+        </fs>
+    </a>
+    <node xml:id="n5"/>
+    <a label="location" ref="n5" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n6"/>
+    <a label="location" ref="n6" as="xces">
+        <fs>
+            <f name="type" value="facility"/>
+        </fs>
+    </a>
+    <node xml:id="n7"/>
+    <a label="location" ref="n7" as="xces">
+        <fs>
+            <f name="type" value="facility"/>
+        </fs>
+    </a>
+    <node xml:id="n8"/>
+    <a label="person" ref="n8" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n9"/>
+    <a label="person" ref="n9" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk35" from="n30" to="penn-n2129"/>
+    <edge xml:id="lnk34" from="n30" to="penn-n2128"/>
+    <edge xml:id="lnk33" from="n30" to="penn-n2127"/>
+    <edge xml:id="lnk32" from="n3" to="penn-n337"/>
+    <edge xml:id="lnk31" from="n29" to="penn-n2076"/>
+    <edge xml:id="lnk30" from="n29" to="penn-n2075"/>
+    <edge xml:id="lnk9" from="n15" to="penn-n1547"/>
+    <edge xml:id="lnk8" from="n14" to="penn-n1539"/>
+    <edge xml:id="lnk7" from="n14" to="penn-n1538"/>
+    <edge xml:id="lnk6" from="n13" to="penn-n1517"/>
+    <edge xml:id="lnk5" from="n12" to="penn-n1346"/>
+    <edge xml:id="lnk4" from="n11" to="penn-n1282"/>
+    <edge xml:id="lnk3" from="n10" to="penn-n1218"/>
+    <edge xml:id="lnk2" from="n1" to="penn-n328"/>
+    <edge xml:id="lnk1" from="n1" to="penn-n327"/>
+    <edge xml:id="lnk0" from="n0" to="penn-n226"/>
+    <edge xml:id="lnk29" from="n28" to="penn-n2071"/>
+    <edge xml:id="lnk28" from="n27" to="penn-n2059"/>
+    <edge xml:id="lnk27" from="n26" to="penn-n2053"/>
+    <edge xml:id="lnk26" from="n26" to="penn-n2052"/>
+    <edge xml:id="lnk25" from="n25" to="penn-n1938"/>
+    <edge xml:id="lnk24" from="n25" to="penn-n1937"/>
+    <edge xml:id="lnk55" from="n9" to="penn-n1160"/>
+    <edge xml:id="lnk23" from="n24" to="penn-n1809"/>
+    <edge xml:id="lnk54" from="n8" to="penn-n1037"/>
+    <edge xml:id="lnk22" from="n23" to="penn-n1730"/>
+    <edge xml:id="lnk53" from="n8" to="penn-n1036"/>
+    <edge xml:id="lnk21" from="n23" to="penn-n1729"/>
+    <edge xml:id="lnk52" from="n7" to="penn-n833"/>
+    <edge xml:id="lnk20" from="n22" to="penn-n1617"/>
+    <edge xml:id="lnk51" from="n7" to="penn-n832"/>
+    <edge xml:id="lnk50" from="n6" to="penn-n384"/>
+    <edge xml:id="lnk19" from="n21" to="penn-n1599"/>
+    <edge xml:id="lnk18" from="n20" to="penn-n1587"/>
+    <edge xml:id="lnk49" from="n6" to="penn-n383"/>
+    <edge xml:id="lnk17" from="n2" to="penn-n331"/>
+    <edge xml:id="lnk48" from="n5" to="penn-n374"/>
+    <edge xml:id="lnk16" from="n2" to="penn-n330"/>
+    <edge xml:id="lnk47" from="n4" to="penn-n368"/>
+    <edge xml:id="lnk15" from="n19" to="penn-n1584"/>
+    <edge xml:id="lnk46" from="n4" to="penn-n367"/>
+    <edge xml:id="lnk14" from="n18" to="penn-n1579"/>
+    <edge xml:id="lnk45" from="n35" to="penn-n2435"/>
+    <edge xml:id="lnk13" from="n18" to="penn-n1578"/>
+    <edge xml:id="lnk44" from="n35" to="penn-n2434"/>
+    <edge xml:id="lnk12" from="n17" to="penn-n1573"/>
+    <edge xml:id="lnk43" from="n34" to="penn-n2343"/>
+    <edge xml:id="lnk11" from="n17" to="penn-n1572"/>
+    <edge xml:id="lnk42" from="n34" to="penn-n2342"/>
+    <edge xml:id="lnk10" from="n16" to="penn-n1552"/>
+    <edge xml:id="lnk41" from="n33" to="penn-n2277"/>
+    <edge xml:id="lnk40" from="n33" to="penn-n2276"/>
+    <edge xml:id="lnk39" from="n32" to="penn-n2171"/>
+    <edge xml:id="lnk38" from="n32" to="penn-n2170"/>
+    <edge xml:id="lnk37" from="n31" to="penn-n2146"/>
+    <edge xml:id="lnk36" from="n31" to="penn-n2145"/>
+</graph>

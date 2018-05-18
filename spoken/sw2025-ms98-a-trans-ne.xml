@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="person" occurs="3"/>
+            <tagUsage gi="location" occurs="6"/>
+            <tagUsage gi="org" occurs="1"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="n0"/>
+    <a label="person" ref="n0" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="n1"/>
+    <a label="location" ref="n1" as="xces">
+        <fs>
+            <f name="type" value="province"/>
+        </fs>
+    </a>
+    <node xml:id="n2"/>
+    <a label="person" ref="n2" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="n3"/>
+    <a label="location" ref="n3" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n4"/>
+    <a label="location" ref="n4" as="xces">
+        <fs>
+            <f name="type" value="state"/>
+        </fs>
+    </a>
+    <node xml:id="n5"/>
+    <a label="person" ref="n5" as="xces">
+        <fs>
+            <f name="sex" value="male"/>
+        </fs>
+    </a>
+    <node xml:id="n6"/>
+    <a label="location" ref="n6" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n7"/>
+    <a label="location" ref="n7" as="xces">
+        <fs>
+            <f name="type" value="city"/>
+        </fs>
+    </a>
+    <node xml:id="n8"/>
+    <a label="location" ref="n8" as="xces">
+        <fs>
+            <f name="type" value="region"/>
+        </fs>
+    </a>
+    <node xml:id="n9"/>
+    <a label="org" ref="n9" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk10" from="n8" to="penn-n1308"/>
+    <edge xml:id="lnk9" from="n7" to="penn-n1291"/>
+    <edge xml:id="lnk8" from="n6" to="penn-n1227"/>
+    <edge xml:id="lnk7" from="n5" to="penn-n1158"/>
+    <edge xml:id="lnk6" from="n4" to="penn-n892"/>
+    <edge xml:id="lnk5" from="n3" to="penn-n571"/>
+    <edge xml:id="lnk4" from="n3" to="penn-n570"/>
+    <edge xml:id="lnk3" from="n2" to="penn-n489"/>
+    <edge xml:id="lnk2" from="n2" to="penn-n488"/>
+    <edge xml:id="lnk1" from="n1" to="penn-n94"/>
+    <edge xml:id="lnk0" from="n0" to="penn-n2"/>
+    <edge xml:id="lnk11" from="n9" to="penn-n1365"/>
+</graph>

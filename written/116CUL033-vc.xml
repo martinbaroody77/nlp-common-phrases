@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="vchunk" occurs="33"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+    </header>
+    <node xml:id="n0"/>
+    <a label="vchunk" ref="n0">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n1"/>
+    <a label="vchunk" ref="n1">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n10"/>
+    <a label="vchunk" ref="n10">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPas"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n11"/>
+    <a label="vchunk" ref="n11">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n12"/>
+    <a label="vchunk" ref="n12">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="graf:set" value="xces"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n13"/>
+    <a label="vchunk" ref="n13">
+        <fs>
+            <f name="voice" value="none"/>
+            <f name="tense" value="Pre"/>
+            <f name="type" value="SPECIAL"/>
+        </fs>
+    </a>
+    <node xml:id="n14"/>
+    <a label="vchunk" ref="n14">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n15"/>
+    <a label="vchunk" ref="n15">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="PrePer"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n16"/>
+    <a label="vchunk" ref="n16">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Pre"/>
+            <f name="type" value="PART"/>
+        </fs>
+    </a>
+    <node xml:id="n17"/>
+    <a label="vchunk" ref="n17">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n18"/>
+    <a label="vchunk" ref="n18">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n19"/>
+    <a label="vchunk" ref="n19">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n2"/>
+    <a label="vchunk" ref="n2">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimFut"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n20"/>
+    <a label="vchunk" ref="n20">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n21"/>
+    <a label="vchunk" ref="n21">
+        <fs>
+            <f name="voice" value="none"/>
+            <f name="tense" value="none"/>
+            <f name="type" value="MODAL"/>
+        </fs>
+    </a>
+    <node xml:id="n22"/>
+    <a label="vchunk" ref="n22">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Pre"/>
+            <f name="type" value="PART"/>
+        </fs>
+    </a>
+    <node xml:id="n23"/>
+    <a label="vchunk" ref="n23">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="PrePer"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n24"/>
+    <a label="vchunk" ref="n24">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Pre"/>
+            <f name="type" value="PART"/>
+        </fs>
+    </a>
+    <node xml:id="n25"/>
+    <a label="vchunk" ref="n25">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n26"/>
+    <a label="vchunk" ref="n26">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n27"/>
+    <a label="vchunk" ref="n27">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n28"/>
+    <a label="vchunk" ref="n28">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimFut"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n29"/>
+    <a label="vchunk" ref="n29">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n3"/>
+    <a label="vchunk" ref="n3">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n30"/>
+    <a label="vchunk" ref="n30">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n31"/>
+    <a label="vchunk" ref="n31">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n32"/>
+    <a label="vchunk" ref="n32">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Pre"/>
+            <f name="type" value="PART"/>
+        </fs>
+    </a>
+    <node xml:id="n4"/>
+    <a label="vchunk" ref="n4">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="SimPre"/>
+            <f name="type" value="FVG"/>
+        </fs>
+    </a>
+    <node xml:id="n5"/>
+    <a label="vchunk" ref="n5">
+        <fs>
+            <f name="voice" value="none"/>
+            <f name="tense" value="none"/>
+            <f name="type" value="MODAL"/>
+        </fs>
+    </a>
+    <node xml:id="n6"/>
+    <a label="vchunk" ref="n6">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n7"/>
+    <a label="vchunk" ref="n7">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Inf"/>
+            <f name="type" value="NFVG"/>
+        </fs>
+    </a>
+    <node xml:id="n8"/>
+    <a label="vchunk" ref="n8">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Pre"/>
+            <f name="type" value="PART"/>
+        </fs>
+    </a>
+    <node xml:id="n9"/>
+    <a label="vchunk" ref="n9">
+        <fs>
+            <f name="voice" value="active"/>
+            <f name="tense" value="Pre"/>
+            <f name="type" value="PART"/>
+        </fs>
+    </a>
+</graph>

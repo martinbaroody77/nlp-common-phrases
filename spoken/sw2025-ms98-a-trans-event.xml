@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Sentencing" occurs="1"/>
+            <tagUsage gi="Enjoying" occurs="1"/>
+            <tagUsage gi="Thinking" occurs="1"/>
+            <tagUsage gi="Working" occurs="1"/>
+            <tagUsage gi="Talking" occurs="1"/>
+            <tagUsage gi="Spending" occurs="1"/>
+            <tagUsage gi="Getting" occurs="2"/>
+            <tagUsage gi="Seeing3" occurs="2"/>
+            <tagUsage gi="Seeing2" occurs="1"/>
+            <tagUsage gi="Seeing1" occurs="1"/>
+            <tagUsage gi="Locking Up" occurs="1"/>
+            <tagUsage gi="Thinking2" occurs="1"/>
+            <tagUsage gi="Hollering" occurs="1"/>
+            <tagUsage gi="Thinking3" occurs="1"/>
+            <tagUsage gi="Looking At" occurs="1"/>
+            <tagUsage gi="Screwing Up" occurs="1"/>
+            <tagUsage gi="Hearing3" occurs="1"/>
+            <tagUsage gi="Hearing2" occurs="1"/>
+            <tagUsage gi="Conversing" occurs="1"/>
+            <tagUsage gi="Having" occurs="1"/>
+            <tagUsage gi="Saying2" occurs="1"/>
+            <tagUsage gi="Not Being Answer" occurs="1"/>
+            <tagUsage gi="Saying3" occurs="1"/>
+            <tagUsage gi="Saying4" occurs="1"/>
+            <tagUsage gi="Waiting" occurs="1"/>
+            <tagUsage gi="Not Having" occurs="1"/>
+            <tagUsage gi="Not Believing" occurs="1"/>
+            <tagUsage gi="Mopping" occurs="1"/>
+            <tagUsage gi="Telling" occurs="1"/>
+            <tagUsage gi="Not Being" occurs="1"/>
+            <tagUsage gi="Feeling" occurs="1"/>
+            <tagUsage gi="Saying" occurs="1"/>
+            <tagUsage gi="Stop Building" occurs="1"/>
+            <tagUsage gi="Starting Off" occurs="1"/>
+            <tagUsage gi="Breaking Up" occurs="1"/>
+            <tagUsage gi="Hearing" occurs="1"/>
+            <tagUsage gi="Being6" occurs="1"/>
+            <tagUsage gi="Being5" occurs="1"/>
+            <tagUsage gi="Being4" occurs="1"/>
+            <tagUsage gi="Changing" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="167 176"/>
+    <region xml:id="ev-r1" anchors="248 253"/>
+    <region xml:id="ev-r2" anchors="303 310"/>
+    <region xml:id="ev-r3" anchors="590 593"/>
+    <region xml:id="ev-r4" anchors="776 792"/>
+    <region xml:id="ev-r5" anchors="993 1004"/>
+    <region xml:id="ev-r6" anchors="1079 1082"/>
+    <region xml:id="ev-r7" anchors="1116 1120"/>
+    <region xml:id="ev-r8" anchors="2128 2133"/>
+    <region xml:id="ev-r9" anchors="2736 2740"/>
+    <region xml:id="ev-r10" anchors="2868 2878"/>
+    <region xml:id="ev-r11" anchors="3362 3372"/>
+    <region xml:id="ev-r12" anchors="3457 3460"/>
+    <region xml:id="ev-r13" anchors="3512 3517"/>
+    <region xml:id="ev-r14" anchors="3672 3676"/>
+    <region xml:id="ev-r15" anchors="4703 4706"/>
+    <region xml:id="ev-r16" anchors="4823 4826"/>
+    <region xml:id="ev-r17" anchors="5550 5555"/>
+    <region xml:id="ev-r18" anchors="5668 5673"/>
+    <region xml:id="ev-r19" anchors="6130 6134"/>
+    <region xml:id="ev-r20" anchors="6146 6154"/>
+    <region xml:id="ev-r21" anchors="6272 6279"/>
+    <region xml:id="ev-r22" anchors="6314 6321"/>
+    <region xml:id="ev-r23" anchors="6332 6335"/>
+    <region xml:id="ev-r24" anchors="6442 6453"/>
+    <region xml:id="ev-r25" anchors="6662 6664"/>
+    <region xml:id="ev-r26" anchors="6763 6780"/>
+    <region xml:id="ev-r27" anchors="6942 6954"/>
+    <region xml:id="ev-r28" anchors="6997 7006"/>
+    <region xml:id="ev-r29" anchors="7025 7033"/>
+    <region xml:id="ev-r30" anchors="7046 7053"/>
+    <region xml:id="ev-r31" anchors="7088 7089"/>
+    <region xml:id="ev-r32" anchors="7144 7149"/>
+    <region xml:id="ev-r33" anchors="7176 7178"/>
+    <region xml:id="ev-r34" anchors="7196 7202"/>
+    <region xml:id="ev-r35" anchors="7262 7269"/>
+    <region xml:id="ev-r36" anchors="7272 7277"/>
+    <region xml:id="ev-r37" anchors="7280 7286"/>
+    <region xml:id="ev-r38" anchors="7387 7394"/>
+    <region xml:id="ev-r39" anchors="7405 7414"/>
+    <region xml:id="ev-r40" anchors="7501 7504"/>
+    <region xml:id="ev-r41" anchors="7507 7514"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Starting Off" ref="ev-n0" as="xces">
+        <fs>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Thinking" ref="ev-n1" as="xces">
+        <fs>
+            <f name="theme" value="Setting"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n10">
+        <link targets="ev-r10"/>
+    </node>
+    <a label="Sentencing" ref="ev-n10" as="xces">
+        <fs>
+            <f name="agent" value="judge"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n11">
+        <link targets="ev-r11"/>
+    </node>
+    <a label="Looking At" ref="ev-n11" as="xces">
+        <fs>
+            <f name="theme" value="anonimous verdict"/>
+            <f name="agent" value="we"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n12">
+        <link targets="ev-r12"/>
+    </node>
+    <a label="Saying2" ref="ev-n12" as="xces">
+        <fs>
+            <f name="theme" value="Voting"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n13">
+        <link targets="ev-r13"/>
+    </node>
+    <a label="Telling" ref="ev-n13" as="xces">
+        <fs>
+            <f name="recipient" value="me"/>
+            <f name="cause" value="Voting"/>
+            <f name="theme" value="Saying3"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n14">
+        <link targets="ev-r14"/>
+    </node>
+    <a label="Saying3" ref="ev-n14" as="xces">
+        <fs>
+            <f name="theme" value="Being Guilty"/>
+            <f name="agent" value="certain percentage of people"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n15">
+        <link targets="ev-r15"/>
+    </node>
+    <a label="Seeing3" ref="ev-n15" as="xces">
+        <fs>
+            <f name="agent" value="I"/>
+            <f name="source" value="talk show"/>
+            <f name="theme" value="Penalizing"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n16">
+        <link targets="ev-r16"/>
+    </node>
+    <a label="Seeing3" ref="ev-n16" as="xces">
+        <fs>
+            <f name="theme" value="Sentencing &amp; Making Impact"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n17">
+        <link targets="ev-r17"/>
+    </node>
+    <a label="Hearing2" ref="ev-n17" as="xces">
+        <fs>
+            <f name="theme" value="Trying"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n18">
+        <link targets="ev-r18"/>
+    </node>
+    <a label="Thinking2" ref="ev-n18" as="xces">
+        <fs>
+            <f name="theme" value="Being lenient"/>
+            <f name="agent" value="they"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n19">
+        <link targets="ev-r19"/>
+    </node>
+    <a label="Saying4" ref="ev-n19" as="xces">
+        <fs>
+            <f name="theme" value="Not Having"/>
+            <f name="agent" value="he (Price)"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Talking" ref="ev-n2" as="xces">
+        <fs>
+            <f name="theme" value="criminals"/>
+            <f name="agent" value="we"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n20">
+        <link targets="ev-r20"/>
+    </node>
+    <a label="Not Having" ref="ev-n20" as="xces">
+        <fs>
+            <f name="agent" value="Price"/>
+            <f name="location" value="from his neck of the woods"/>
+            <f name="theme" value="blacks"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n21">
+        <link targets="ev-r21"/>
+    </node>
+    <a label="Having" ref="ev-n21" as="xces">
+        <fs>
+            <f name="agent" value="he (Price)"/>
+            <f name="theme" value="whole family"/>
+            <f name="aim" value="Feeling"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n22">
+        <link targets="ev-r22"/>
+    </node>
+    <a label="Feeling" ref="ev-n22" as="xces">
+        <fs>
+            <f name="theme" value="Getting"/>
+            <f name="agent" value="him (Price)"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n23">
+        <link targets="ev-r23"/>
+    </node>
+    <a label="Getting" ref="ev-n23" as="xces">
+        <fs>
+            <f name="beneficiary" value="he (Price)"/>
+            <f name="theme" value="his peers"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n24">
+        <link targets="ev-r24"/>
+    </node>
+    <a label="Not Believing" ref="ev-n24" as="xces">
+        <fs>
+            <f name="theme" value="Looking For"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n25">
+        <link targets="ev-r25"/>
+    </node>
+    <a label="Being4" ref="ev-n25" as="xces">
+        <fs>
+            <f name="location" value="cave"/>
+            <f name="theme" value="you"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n26">
+        <link targets="ev-r26"/>
+    </node>
+    <a label="Not Being Answer" ref="ev-n26" as="xces">
+        <fs>
+            <f name="theme" value="Moving"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n27">
+        <link targets="ev-r27"/>
+    </node>
+    <a label="Conversing" ref="ev-n27" as="xces"/>
+    <node xml:id="ev-n28">
+        <link targets="ev-r28"/>
+    </node>
+    <a label="Breaking Up" ref="ev-n28" as="xces">
+        <fs>
+            <f name="theme1" value="Conversing"/>
+            <f name="time" value="afternoon"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n29">
+        <link targets="ev-r29"/>
+    </node>
+    <a label="Changing" ref="ev-n29" as="xces">
+        <fs>
+            <f name="agent" value="I"/>
+            <f name="time" value="afternoon"/>
+            <f name="theme" value="diapers"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Seeing1" ref="ev-n3" as="xces">
+        <fs>
+            <f name="theme" value="report"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n30">
+        <link targets="ev-r30"/>
+    </node>
+    <a label="Mopping" ref="ev-n30" as="xces">
+        <fs>
+            <f name="agent" value="I"/>
+            <f name="time" value="afternoon"/>
+            <f name="theme" value="floors"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n31">
+        <link targets="ev-r31"/>
+    </node>
+    <a label="Being5" ref="ev-n31" as="xces">
+        <fs>
+            <f name="location" value="home"/>
+            <f name="theme" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n32">
+        <link targets="ev-r32"/>
+    </node>
+    <a label="Working" ref="ev-n32" as="xces">
+        <fs>
+            <f name="theme" value="TI"/>
+            <f name="agent" value="husband"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n33">
+        <link targets="ev-r33"/>
+    </node>
+    <a label="Being6" ref="ev-n33" as="xces">
+        <fs>
+            <f name="location" value="house"/>
+            <f name="theme" value="you"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n34">
+        <link targets="ev-r34"/>
+    </node>
+    <a label="Not Being" ref="ev-n34" as="xces">
+        <fs>
+            <f name="location" value="plant"/>
+            <f name="theme" value="you"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n35">
+        <link targets="ev-r35"/>
+    </node>
+    <a label="Thinking3" ref="ev-n35" as="xces">
+        <fs>
+            <f name="theme" value="Hearing"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n36">
+        <link targets="ev-r36"/>
+    </node>
+    <a label="Hearing3" ref="ev-n36" as="xces">
+        <fs>
+            <f name="agent" value="I"/>
+            <f name="location" value="background"/>
+            <f name="theme" value="holler"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n37">
+        <link targets="ev-r37"/>
+    </node>
+    <a label="Hollering" ref="ev-n37" as="xces"/>
+    <node xml:id="ev-n38">
+        <link targets="ev-r38"/>
+    </node>
+    <a label="Waiting" ref="ev-n38" as="xces">
+        <fs>
+            <f name="theme" value="dog &amp; 2 kids"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n39">
+        <link targets="ev-r39"/>
+    </node>
+    <a label="Locking Up" ref="ev-n39" as="xces">
+        <fs>
+            <f name="location" value="laundry room"/>
+            <f name="theme" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="Stop Building" ref="ev-n4" as="xces">
+        <fs>
+            <f name="theme" value="Taj Mahals (prisons)"/>
+            <f name="agent" value="we"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n40">
+        <link targets="ev-r40"/>
+    </node>
+    <a label="Getting" ref="ev-n40" as="xces">
+        <fs>
+            <f name="theme" value="you"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n41">
+        <link targets="ev-r41"/>
+    </node>
+    <a label="Enjoying" ref="ev-n41" as="xces">
+        <fs>
+            <f name="theme" value="it (conversation)"/>
+            <f name="agent" value="I"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Screwing Up" ref="ev-n5" as="xces">
+        <fs>
+            <f name="theme" value="system"/>
+            <f name="agent" value="we"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n6">
+        <link targets="ev-r6"/>
+    </node>
+    <a label="Seeing2" ref="ev-n6" as="xces">
+        <fs>
+            <f name="agent" value="I"/>
+            <f name="time" value="last night"/>
+            <f name="source" value="news"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n7">
+        <link targets="ev-r7"/>
+    </node>
+    <a label="Saying" ref="ev-n7" as="xces">
+        <fs>
+            <f name="theme" value="Being1 &amp; Paroling &amp; Being2 &amp; Being3"/>
+            <f name="agent" value="they"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n8">
+        <link targets="ev-r8"/>
+    </node>
+    <a label="Spending" ref="ev-n8" as="xces">
+        <fs>
+            <f name="agent" value="we"/>
+            <f name="cause" value="starving children or 12 million other things"/>
+            <f name="theme" value="money"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n9">
+        <link targets="ev-r9"/>
+    </node>
+    <a label="Hearing" ref="ev-n9" as="xces">
+        <fs>
+            <f name="time" value="every day"/>
+            <f name="source" value="news"/>
+            <f name="theme" value="Murdering"/>
+        </fs>
+    </a>
+</graph>

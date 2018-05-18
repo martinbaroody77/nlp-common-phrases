@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="Humanitarian Crisis" occurs="1"/>
+            <tagUsage gi="Exisiting" occurs="1"/>
+            <tagUsage gi="Not Stemming" occurs="1"/>
+            <tagUsage gi="Recovering" occurs="1"/>
+            <tagUsage gi="Agreeing" occurs="1"/>
+            <tagUsage gi="Festering" occurs="1"/>
+            <tagUsage gi="Thwarting" occurs="1"/>
+            <tagUsage gi="War Ending" occurs="1"/>
+            <tagUsage gi="Bombing Campaign" occurs="1"/>
+            <tagUsage gi="Finding" occurs="1"/>
+            <tagUsage gi="Destroying" occurs="1"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="ev-r0" anchors="106 112"/>
+    <region xml:id="ev-r1" anchors="184 203"/>
+    <region xml:id="ev-r2" anchors="213 221"/>
+    <region xml:id="ev-r3" anchors="513 521"/>
+    <region xml:id="ev-r4" anchors="617 626"/>
+    <region xml:id="ev-r5" anchors="652 660"/>
+    <region xml:id="ev-r6" anchors="683 693"/>
+    <region xml:id="ev-r7" anchors="726 742"/>
+    <region xml:id="ev-r8" anchors="768 777"/>
+    <region xml:id="ev-r9" anchors="904 909"/>
+    <region xml:id="ev-r10" anchors="938 945"/>
+    <node xml:id="ev-n0">
+        <link targets="ev-r0"/>
+    </node>
+    <a label="Agreeing" ref="ev-n0" as="xces">
+        <fs>
+            <f name="arg1" value="Iraqi government"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n1">
+        <link targets="ev-r1"/>
+    </node>
+    <a label="Humanitarian Crisis" ref="ev-n1" as="xces"/>
+    <node xml:id="ev-n10">
+        <link targets="ev-r10"/>
+    </node>
+    <a label="Exisiting" ref="ev-n10" as="xces">
+        <fs>
+            <f name="arg1" value="much of the population"/>
+            <f name="arg2" value="state of semi-starvation"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n2">
+        <link targets="ev-r2"/>
+    </node>
+    <a label="Festering" ref="ev-n2" as="xces">
+        <fs>
+            <f name="arg2" value="Iraq"/>
+            <f name="arg3" value="since Gulf War of 1990"/>
+            <f name="arg1" value="humanitarian crisis"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n3">
+        <link targets="ev-r3"/>
+    </node>
+    <a label="Not Stemming" ref="ev-n3" as="xces">
+        <fs>
+            <f name="arg1" value="aid"/>
+            <f name="arg2" value="malnourishment &amp; other medical problems"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n4">
+        <link targets="ev-r4"/>
+    </node>
+    <a label="War Ending" ref="ev-n4" as="xces">
+        <fs>
+            <f name="arg1" value="1990 (inferred)"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n5">
+        <link targets="ev-r5"/>
+    </node>
+    <a label="Thwarting" ref="ev-n5" as="xces">
+        <fs>
+            <f name="arg1" value="economic sanctions"/>
+            <f name="arg2" value="the country (Iraq)"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n6">
+        <link targets="ev-r6"/>
+    </node>
+    <a label="Recovering" ref="ev-n6" as="xces">
+        <fs>
+            <f name="arg1" value="the country(Iraq)"/>
+            <f name="arg2" value="from the devestation"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n7">
+        <link targets="ev-r7"/>
+    </node>
+    <a label="Bombing Campaign" ref="ev-n7" as="xces"/>
+    <node xml:id="ev-n8">
+        <link targets="ev-r8"/>
+    </node>
+    <a label="Destroying" ref="ev-n8" as="xces">
+        <fs>
+            <f name="arg1" value="The Persian Gulf War"/>
+            <f name="arg2" value="the country's(Iraq) medical infrastructure"/>
+        </fs>
+    </a>
+    <node xml:id="ev-n9">
+        <link targets="ev-r9"/>
+    </node>
+    <a label="Finding" ref="ev-n9" as="xces">
+        <fs>
+            <f name="arg2" value="much of the population"/>
+            <f name="arg3" value="EXISTING"/>
+            <f name="arg1" value="WHO"/>
+        </fs>
+    </a>
+</graph>

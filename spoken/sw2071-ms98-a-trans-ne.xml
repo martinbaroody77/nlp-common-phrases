@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="person" occurs="1"/>
+            <tagUsage gi="org" occurs="2"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="ne-n0"/>
+    <a label="person" ref="ne-n0" as="xces">
+        <fs>
+            <f name="sex" value="female"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n1"/>
+    <a label="org" ref="ne-n1" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <node xml:id="ne-n2"/>
+    <a label="org" ref="ne-n2" as="xces">
+        <fs>
+            <f name="type" value="corporation"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk3" from="ne-n2" to="penn-n677"/>
+    <edge xml:id="lnk2" from="ne-n1" to="penn-n639"/>
+    <edge xml:id="lnk1" from="ne-n1" to="penn-n638"/>
+    <edge xml:id="lnk0" from="ne-n0" to="penn-n1"/>
+</graph>

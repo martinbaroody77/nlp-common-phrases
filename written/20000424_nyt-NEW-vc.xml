@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="vchunk" occurs="5"/>
+        </tagsDecl>
+        <dependencies>
+            <dependsOn type="penn"/>
+        </dependencies>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <node xml:id="vc-n0"/>
+    <a label="vchunk" ref="vc-n0" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPre"/>
+            <f name="voice" value="active"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n1"/>
+    <a label="vchunk" ref="vc-n1" as="xces">
+        <fs>
+            <f name="type" value="NFVG"/>
+            <f name="tense" value="Inf"/>
+            <f name="voice" value="active"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n2"/>
+    <a label="vchunk" ref="vc-n2" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n3"/>
+    <a label="vchunk" ref="vc-n3" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="SimPas"/>
+            <f name="voice" value="active"/>
+        </fs>
+    </a>
+    <node xml:id="vc-n4"/>
+    <a label="vchunk" ref="vc-n4" as="xces">
+        <fs>
+            <f name="type" value="FVG"/>
+            <f name="tense" value="PrePer"/>
+            <f name="voice" value="active"/>
+        </fs>
+    </a>
+    <edge xml:id="lnk6" from="vc-n4" to="penn-n46"/>
+    <edge xml:id="lnk5" from="vc-n4" to="penn-n45"/>
+    <edge xml:id="lnk4" from="vc-n3" to="penn-n38"/>
+    <edge xml:id="lnk3" from="vc-n2" to="penn-n31"/>
+    <edge xml:id="lnk2" from="vc-n1" to="penn-n16"/>
+    <edge xml:id="lnk1" from="vc-n1" to="penn-n15"/>
+    <edge xml:id="lnk0" from="vc-n0" to="penn-n11"/>
+</graph>
